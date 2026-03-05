@@ -22,5 +22,7 @@ To develop real-world penetration testing skills through structured learning, la
 ### Day 01
 - ✔ Completed **DNS in Detail** room on TryHackMe
 - ✔ Learned networking basics fromed youtube
+### Day 02
+- ✔ Completed **HTTP in Detail** room on TryHackMe
 
 *This repository will be updated daily with new concepts and practical learnings.*
