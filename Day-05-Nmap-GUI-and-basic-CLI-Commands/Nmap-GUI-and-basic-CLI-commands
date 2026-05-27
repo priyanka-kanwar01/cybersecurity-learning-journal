@@ -1,0 +1,26 @@
+Day 5 — Cybersecurity Journey 🌐🔍
+
+Today I explored Nmap, one of the most powerful tools used in cybersecurity and penetration testing. I learned the basics of both the GUI version and CLI commands to understand how network scanning and reconnaissance work.
+
+Topics I Learned
+Introduction to Nmap GUI & CLI
+Host discovery and network scanning
+Basic port scanning techniques
+Understanding open, closed, and filtered ports
+Service and version detection
+Common Nmap commands and flags
+Importance of reconnaissance in penetration testing
+Basic Commands Practiced
+nmap <target>
+nmap -sV <target>
+nmap -A <target>
+nmap -Pn <target>
+nmap -p 80,443 <target>
+Key Takeaways
+Reconnaissance is the foundation of ethical hacking.
+Nmap helps identify services, ports, and potential attack surfaces.
+Learning CLI commands improves efficiency and understanding of network scanning.
+
+Every day I’m getting closer to becoming a skilled penetration tester by strengthening my practical cybersecurity knowledge. 🚀🔐
+
+#Cybersecurity #EthicalHacking #Nmap #Pentesting #Networking #InfoSec #LearningJourney #Linux #HTB
