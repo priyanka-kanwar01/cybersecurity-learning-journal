@@ -1,0 +1,69 @@
+# Day 6 of My Cybersecurity Journey 🚀
+
+Today I focused on learning **Port Scanning using Nmap** in detail — one of the most important skills in networking and penetration testing.
+
+## What I Learned 📚
+
+### 🔹 Introduction to Nmap
+
+* Understanding what Nmap (Network Mapper) is
+* Why Nmap is widely used in cybersecurity and ethical hacking
+* Real-world use cases of port scanning and network reconnaissance
+
+### 🔹 Port Scanning Concepts
+
+* Open Ports
+* Closed Ports
+* Filtered Ports
+* TCP vs UDP scanning
+* Importance of service detection
+
+### 🔹 Nmap Scan Types
+
+* TCP Connect Scan (`-sT`)
+* SYN Scan / Stealth Scan (`-sS`)
+* UDP Scan (`-sU`)
+* Ping Scan (`-sn`)
+* Version Detection (`-sV`)
+* OS Detection (`-O`)
+* Aggressive Scan (`-A`)
+
+### 🔹 Common Nmap Commands Practiced
+
+```bash
+nmap <target-ip>
+nmap -sS <target-ip>
+nmap -sV <target-ip>
+nmap -A <target-ip>
+nmap -O <target-ip>
+nmap -p 1-1000 <target-ip>
+nmap -sn <network-range>
+```
+
+### 🔹 Enumeration & Reconnaissance
+
+* Discovering live hosts in a network
+* Identifying running services
+* Detecting operating systems
+* Understanding banners and service fingerprints
+
+### 🔹 Nmap Scripting Engine (NSE)
+
+* Basics of NSE scripts
+* How automation helps in reconnaissance
+* Running default scripts:
+
+```bash
+nmap --script=default <target-ip>
+```
+
+### 🔹 Key Takeaways
+
+* Port scanning is the foundation of penetration testing
+* Proper reconnaissance provides valuable attack surface information
+* Nmap is powerful for both network administration and security assessment
+* Understanding scan types helps in stealth and efficiency
+
+Excited to continue exploring advanced enumeration and network security concepts. 🔥
+
+#CyberSecurity #EthicalHacking #Nmap #Networking #PortScanning #Linux #InfoSec #Pentesting #LearningJourney
