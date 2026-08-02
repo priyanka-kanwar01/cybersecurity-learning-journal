@@ -1,0 +1,76 @@
+Day 01 - Networking Basics, Cyber News & Metasploit Setup
+
+Date: 2 August 2026
+
+Topics Covered
+
+🌐 Networking Basics
+
+Today I started with the fundamentals of computer networking. Understanding networking is essential before diving deeper into cybersecurity.
+
+Concepts Learned
+- What is a computer network?
+- Types of networks (LAN, WAN, MAN)
+- IP Address (IPv4)
+- MAC Address
+- Router vs Switch
+- Introduction to the TCP/IP Model
+- Basic understanding of how devices communicate over a network
+
+---
+
+Cybersecurity News
+
+ Hotel Wi-Fi Malware Attack
+
+Today I read about a campaign where attackers targeted hotel Wi-Fi login systems to distribute malware.
+
+What Happened?
+- Attackers compromised hotel Wi-Fi portals.
+- Guests connecting to the hotel's Wi-Fi were redirected to fake update pages.
+- Victims were tricked into downloading malware disguised as software updates.
+- The attack mainly relied on social engineering rather than exploiting the operating system directly.
+
+Why It Matters
+- Public Wi-Fi networks can be abused to target travelers.
+- Fake software update pages are still an effective phishing technique.
+- Users should only install software from official sources and verify update prompts.
+
+Key Takeaway
+Never trust unexpected software update prompts on public Wi-Fi. Always verify the source before downloading or installing anything.
+
+---
+
+Tool Setup
+
+Metasploit Framework
+
+Today I installed and configured the Metasploit Framework.
+
+Tasks Completed
+- Installed Metasploit successfully.
+- Verified the installation.
+- Explored the Metasploit directory structure.
+- Learned the purpose of `msfconsole`.
+- Understood that Metasploit is used for penetration testing and vulnerability assessment.
+
+---
+
+Today s Reflection
+
+Today s learning reinforced that strong networking knowledge is the foundation of cybersecurity. Reading current cybersecurity news helps me stay aware of real-world threats, while setting up tools like Metasploit prepares me for future hands-on penetration testing labs.
+
+---
+
+Resources
+- Networking Fundamentals
+- Official Metasploit Documentation
+- Latest Cybersecurity News
+
+---
+
+Time Spent: ~5 Hours
+
+Status: ✅ Completed
+
+#Day01 #Cybersecurity #Networking #Metasploit #LearningInPublic #GitHubJourney
