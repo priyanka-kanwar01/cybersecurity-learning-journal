@@ -1,0 +1,58 @@
+Day 2 – Networking Fundamentals for Cybersecurity
+
+Today's Learning
+
+Today I focused on building a strong networking foundation, which is essential for understanding how systems communicate and how cyber attacks exploit networks.
+
+Topics Covered
+
+What is Networking & Why Cybersecurity Needs It
+  - Basics of computer networks
+  - Importance of networking in ethical hacking and penetration testing
+  - How attackers and defenders rely on network knowledge
+
+OSI Model & TCP/IP Model
+  - Understanding all OSI layers
+  - Comparing OSI and TCP/IP models
+  - Data flow from sender to receiver
+
+IP Addressing, Subnetting & CIDR Notation
+  - IPv4 address structure
+  - Public vs Private IPs
+  - Subnet masks
+  - CIDR notation
+  - Network and Host identification
+
+Core Networking Protocols
+  - TCP
+  - UDP
+  - DNS
+  - ARP
+  - DHCP
+  - HTTP / HTTPS
+  - ICMP
+  - FTP
+  - SSH
+
+Key Takeaways
+
+- Networking is the backbone of cybersecurity.
+- Every cyber attack begins with understanding how devices communicate.
+- The OSI and TCP/IP models simplify troubleshooting and attack analysis.
+- IP addressing and subnetting help identify devices and network boundaries.
+- Understanding protocols is essential for traffic analysis and penetration testing.
+
+Tools Mentioned
+
+- Wireshark
+- Ping
+- Traceroute
+- ipconfig / ifconfig
+
+Progress
+
+Day 2 complete ✅
+
+Building a strong networking foundation before moving to advanced cybersecurity concepts.
+
+#CyberSecurity #Networking #OSIModel #TCPIP #Subnetting #EthicalHacking #LearningInPublic
