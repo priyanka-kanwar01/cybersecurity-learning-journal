@@ -1,0 +1,35 @@
+Day 3 – Cybersecurity Learning Journey
+
+What I Learned Today
+
+Today was focused on practical networking, offensive security techniques, and defensive mechanisms.
+
+Topics Covered
+
+* ✅ Packet Analysis with Wireshark 
+* ✅ Network Scanning & Reconnaissance using **Nmap**
+* ✅ Man-in-the-Middle (MITM) Attacks
+* ✅ ARP Poisoning & DNS Spoofing
+* ✅ Wi-Fi Hacking Basics – WPA2 Cracking, Evil Twin & Deauthentication Attacks
+* ✅ Firewalls, IDS/IPS & Network Defense Mechanisms
+* ✅ Advanced Concepts – Pivoting, Tunneling & Real-World Attack Labs
+
+Cybersecurity News
+
+DOUBLECUP Loader-as-a-Service
+
+Read about the newly discovered **DOUBLECUP** malware framework that uses **ClickFix** social engineering and hides malicious code inside PNG images using **steganography**. It delivers malware such as **CountLoader** and **DeviceManager RAT**, demonstrating how attackers combine user deception with advanced evasion techniques to compromise both Windows and macOS systems.
+
+Key Takeaways
+
+* Wireshark is essential for inspecting and troubleshooting network traffic.
+* Nmap is one of the most powerful tools for host discovery and service enumeration.
+* MITM attacks exploit insecure network communication and highlight the importance of encrypted protocols.
+* Modern attackers increasingly rely on social engineering techniques like ClickFix alongside advanced malware delivery methods.
+* Strong network defenses such as firewalls, IDS/IPS, secure Wi-Fi configurations, and user awareness are critical for preventing attacks.
+
+---
+
+Day 3 Complete ✅
+
+Every day of learning strengthens my understanding of cybersecurity. One step closer to becoming a skilled cybersecurity professional. 🔐
