@@ -1,0 +1,44 @@
+Day 4: Network Basics & Today's Cybersecurity News
+
+Today I built a stronger foundation in computer networking, one of the most important skills in cybersecurity.
+
+Topics Covered
+
+* IP Addresses
+* Classes of IP Addresses
+* Public vs Private IP Addresses
+* DHCP (Dynamic Host Configuration Protocol)
+* NAT (Network Address Translation)
+* Network Ports
+* TCP/IP Suite
+* Common Network Protocols
+* Internet Protocol (IP)
+* Transmission Control Protocol (TCP)
+* TCP Three-Way Handshake
+* User Datagram Protocol (UDP)
+* Network Topologies
+* OSI Model (7 Layers)
+
+Key Takeaways
+
+* Learned how devices communicate using IP addresses and ports.
+* Understood the difference between public and private IP addresses.
+* Explored how DHCP automatically assigns IP addresses.
+* Learned how NAT allows multiple devices to share a single public IP.
+* Studied the TCP/IP model and common protocols like HTTP, HTTPS, DNS, FTP, and SSH.
+* Understood the reliability of TCP versus the speed of UDP.
+* Learned how the TCP Three-Way Handshake establishes a reliable connection.
+* Explored different network topologies and the OSI model to understand how data flows across networks.
+
+Cybersecurity News
+
+Today's major security updates included:
+
+* **QuickFox Supply Chain Attack:** Attackers compromised the Windows installer of the QuickFox VPN, delivering the **FDMTP backdoor** through a trojanized installer and targeting selected Windows users.
+* **CISA KEV Alert:** CISA added critical vulnerabilities in **Langflow**, **Apache Tomcat**, and **N-able N-central** to its Known Exploited Vulnerabilities (KEV) catalog after confirming active exploitation in the wild.
+
+What I Learned
+
+Networking is the backbone of cybersecurity. Understanding how devices communicate, how protocols work, and how attackers exploit network services is essential before moving into penetration testing, malware analysis, and network defense.
+
+#CyberSecurity #Networking #OSIModel #TCPIP #LearningInPublic #BlueTeam #RedTeam #EthicalHacking #InfoSec #CyberJourney 
