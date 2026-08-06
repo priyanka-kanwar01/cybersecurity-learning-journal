@@ -1,0 +1,26 @@
+Day 5 – Subnetting & CIDR Notation
+
+Today, I focused on understanding how IP networks are divided and managed efficiently using Subnetting and CIDR (Classless Inter-Domain Routing).
+
+📚 Topics Covered
+🌐 What is Subnetting?
+🎯 Why Subnetting is Important
+🏠 Understanding Subnets
+🎭 Subnet Masks
+📌 CIDR Notation (/24, /16, /30, etc.)
+💡 Key Takeaways
+Subnetting divides a large network into smaller, manageable networks.
+It improves network performance, organization, and security.
+A subnet mask determines which part of an IP address represents the network and the host.
+CIDR notation provides a simpler and more flexible way to represent subnet masks.
+Learning subnetting is essential for network design, routing, and cybersecurity assessments.
+🛠️ Skills Learned
+Understanding network segmentation
+Reading subnet masks
+Identifying network and host portions of an IP address
+Interpreting CIDR notation
+🚀 Progress
+
+Networking fundamentals are becoming clearer. Building a strong understanding of subnetting will help me in penetration testing, network scanning, and security assessments.
+
+#CyberSecurity #Networking #Subnetting #CIDR #CCNA #EthicalHacking #LearningInPublic #GitHubJourney #InfoSec
