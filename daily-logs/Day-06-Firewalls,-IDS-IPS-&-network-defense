@@ -1,0 +1,24 @@
+Day 6 – Firewalls, IDS/IPS & Network Defense
+
+Today I explored how organizations monitor, detect, and defend against cyber threats in modern networks.
+
+What I Learned
+  How Firewalls monitor and control incoming and outgoing network traffic using predefined security rules.
+  How IDS (Intrusion Detection Systems) detect suspicious or malicious network activities.
+  How IPS (Intrusion Prevention Systems) actively block or prevent detected attacks in real time.
+  The role of Honeypots in attracting attackers, collecting threat intelligence, and analyzing attack techniques.
+  Why understanding both detection and evasion techniques helps defensive security teams build stronger security controls.
+  Reinforced these concepts through lab-based demonstrations to understand real-world defense mechanisms.
+
+  
+Cybersecurity News
+  WordPress patched CVE-2026-64638, a critical pre-authentication XSS vulnerability that researchers showed could be chained into PHP code execution if an administrator interacts with a malicious page.
+  Linux fixed CVE-2026-64564 (SCTPhantom), an 18-year-old use-after-free vulnerability in SCTP that could allow local privilege escalation to root and even container escape.
+  Researchers introduced NatJack, a new attack technique that manipulates NAT tables to hijack TCP sessions, spoof DNS responses, and disrupt network communications, emphasizing the importance of network segmentation and timely patching.
+
+  
+Key Takeaway
+
+  Strong cybersecurity isn't just about blocking attacks—it requires continuous monitoring, detection, prevention, and learning from attacker behavior. Firewalls, IDS/IPS, Honeypots, and regular security updates work together to build a layered defense against evolving threats.
+
+#CyberSecurity #Networking #Firewall #IDS #IPS #Honeypot #BlueTeam #NetworkSecurity #LearningInPublic #GitHubJourney #InfoSec #Linux #WordPress #NatJack
