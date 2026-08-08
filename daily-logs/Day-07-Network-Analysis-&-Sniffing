@@ -1,0 +1,27 @@
+Day 7 — Network Analysis & Sniffing 🔎
+
+Today I learned the fundamentals of network analysis and packet sniffing, focusing on how security professionals inspect network traffic and identify suspicious activity.
+
+Topics Covered
+Command-Line Network Analysis Tools
+Network Sniffers
+tcpdump — capturing and analyzing packets from the command line
+Wireshark — graphical packet analysis and protocol inspection
+Understanding how packet captures can help identify suspicious connections, protocols, and network behavior
+
+Cybersecurity News — CSS Attacks on Webmail
+
+I also studied new research showing how malicious CSS/HTML inside emails can escape the email's boundaries and interact with webmail interfaces.
+
+Researchers demonstrated techniques affecting services such as Outlook, Gmail, Yahoo, AOL, Fastmail, and Proton Mail that could potentially be used to:
+
+Steal passwords and authentication tokens
+Manipulate trusted UI elements
+Exfiltrate sensitive information
+Abuse AI tools connected to email
+Track when emails are opened
+🔐 Key Takeaway
+
+Day 7 connected network analysis with real-world security research: packet-analysis tools like Wireshark and tcpdump help security professionals investigate the network activity that can occur during attacks and data exfiltration.
+
+#CyberSecurity #Networking #Wireshark #Tcpdump #NetworkAnalysis #PacketAnalysis #EmailSecurity #CSSInjection #AIsecurity #CybersecurityJourney #Day7
