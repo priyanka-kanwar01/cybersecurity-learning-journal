@@ -1,0 +1,23 @@
+Day 8 – Wireshark & Virtual Lab Setup
+
+Today, I focused on Wireshark and setting up a practical cybersecurity lab environment.
+
+Topics Covered:
+
+* Introduction to Wireshark
+* Installing VMware Workstation
+* Setting up Kali Linux
+* Configuring Metasploitable 2
+* Exploring the Wireshark interface and packet capture
+* Understanding Wireshark filters
+* Exploring different types of filters: **Capture Filters & Display Filters**
+
+Hands-on Practice:
+Set up a virtual lab using **Kali Linux + Metasploitable 2** and started analyzing network traffic with Wireshark.
+
+Key Takeaway:
+Wireshark helps understand what is happening inside a network by allowing us to capture and analyze packets in real time.
+
+Day 8 complete. More networking and cybersecurity concepts ahead!
+
+#CyberSecurity #Wireshark #KaliLinux #Metasploitable2 #VMware #NetworkSecurity #PacketAnalysis #EthicalHacking #CyberSecurityJourney #LearningInPublic
