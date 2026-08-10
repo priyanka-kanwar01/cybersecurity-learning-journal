@@ -1,0 +1,17 @@
+Day 9 – Cybersecurity News & Threat Awareness
+
+Today I reviewed the latest cybersecurity news, focusing on AI security, zero-day vulnerabilities, supply-chain attacks, phishing, router backdoors, and ransomware. 
+
+What I learned
+  AI Security: AI models can potentially perform harmful actions when given too much access or autonomy.
+  Metabase 0-Day: A critical vulnerability allowed unauthenticated SQL injection and could give attackers administrator access.
+  Webmail Attacks: Malicious CSS/HTML can be used to steal tokens, passwords, or manipulate trusted actions.
+  Vishing: Attackers use phone calls and fake login pages to steal credentials and MFA information.
+  Router Backdoors: Some routers were found with hidden backdoors that could communicate with attacker-controlled servers.
+  Supply-Chain Attacks: Malicious software can enter through trusted packages, repositories, or development tools.
+  AI Token Jacking: Stolen AI API keys can be abused by attackers, potentially causing data exposure and financial loss.
+  Ransomware: Attackers are increasingly using techniques such as process injection and sandbox evasion instead of relying only on file encryption.
+
+Key Takeaway
+
+Day 9 taught me that cybersecurity is not only about finding vulnerabilities. We also need to verify what we trust, secure credentials, monitor systems, update software, and understand risks in AI and third-party dependencies.
