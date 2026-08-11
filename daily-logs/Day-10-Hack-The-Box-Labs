@@ -1,0 +1,13 @@
+Day 10 — Hack The Box Labs 🚀
+
+Completed three beginner-friendly Hack The Box labs: **Meow, Fawn, and Dancing**.
+
+* Meow: Practiced basic network enumeration and discovered an accessible Telnet service.
+* Fawn: Learned FTP enumeration and identified anonymous FTP access.
+* Dancing: Explored SMB enumeration and learned how to identify and access shared resources.
+
+These labs strengthened my understanding of Nmap scanning, service enumeration, Telnet, FTP, SMB, and basic exploitation techniques.
+
+Key Learning: Enumeration is one of the most important steps in penetration testing because identifying exposed services can reveal potential attack paths.
+
+#CyberSecurity #HackTheBox #HTB #PenetrationTesting #Nmap #Networking #EthicalHacking #CyberSecurityJourney #LearningInPublic
