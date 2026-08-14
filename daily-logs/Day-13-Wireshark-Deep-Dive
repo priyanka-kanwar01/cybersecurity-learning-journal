@@ -1,0 +1,16 @@
+Day 13 — Wireshark Deep Dive 🦈
+
+Today I completed a detailed study of Wireshark, focusing on packet analysis, filtering, and customization.
+
+🔍 Exploring Wireshark
+🎯 Types of Wireshark Filters
+⚙️ Display & optimizing filters
+🌐 Display filters for IP addresses
+🔌 Display filters for ports
+🚦 Port filtering using capture filters
+🖥️ Capture filters for specific hosts
+👤 Importance of Wireshark Profiles
+🎨 Importance of Coloring Rules
+📊 Practical packet analysis and traffic inspection
+
+Key takeaway: Wireshark filters help reduce network noise and make it easier to identify specific hosts, protocols, ports, and suspicious traffic during security investigations.-
