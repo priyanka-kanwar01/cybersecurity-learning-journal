@@ -1,0 +1,381 @@
+Complete Wireshark Deep Dive 🔎🦈
+
+ Overview
+
+Today, I completed a deeper exploration of **Wireshark**, one of the most important tools for network analysis and cybersecurity.
+
+I focused on understanding how Wireshark captures packets, how different types of filters work, how to analyze traffic using IP addresses and ports, and how **profiles and coloring rules** can make packet analysis faster and more organized.
+
+---
+
+ 1. Exploring Wireshark
+
+**Wireshark** is an open-source network protocol analyzer used to capture and inspect network traffic.
+
+It allows security professionals to see individual packets and understand what is happening on a network.
+
+### Key things I explored:
+
+* Network interfaces
+* Live packet capture
+* Packet details
+* Packet bytes
+* Protocol hierarchy
+* Conversations
+* Endpoints
+* Packet statistics
+* Follow TCP/UDP streams
+* Applying filters
+* Analyzing suspicious traffic
+
+A packet in Wireshark can generally be viewed through three major sections:
+
+**Packet List → Packet Details → Packet Bytes**
+
+This provides both a high-level and low-level view of network communication.
+
+---
+
+ 2. Types of Filters in Wireshark
+
+Wireshark mainly uses two types of filters:
+
+### Capture Filters
+
+Capture filters determine **which packets should be captured**.
+
+They are applied **before or during packet capture**.
+
+Example:
+
+```bash
+host 192.168.1.10
+```
+
+This captures traffic involving the specified host.
+
+Another example:
+
+```bash
+port 80
+```
+
+This captures traffic associated with port 80.
+
+### Display Filters
+
+Display filters determine **which already captured packets should be displayed**.
+
+They do not remove packets from the capture file.
+
+Example:
+
+```text
+ip.addr == 192.168.1.10
+```
+
+This displays packets involving the specified IP address.
+
+### Simple Difference
+
+**Capture Filter → What should be captured?**
+
+**Display Filter → What should be displayed?**
+
+---
+
+ 3. Display & Optimizing Filters
+
+Display filters are extremely useful when a capture contains thousands or millions of packets.
+
+Instead of manually inspecting every packet, filters allow specific traffic to be isolated.
+
+For example:
+
+```text
+ip.addr == 192.168.1.10
+```
+
+Only traffic involving that IP will be displayed.
+
+Filters can also be combined.
+
+Example:
+
+```text
+ip.addr == 192.168.1.10 && tcp
+```
+
+This displays TCP traffic involving the specified IP.
+
+Using filters effectively makes packet analysis:
+
+* Faster
+* More precise
+* Easier to understand
+* Less overwhelming
+
+---
+
+ 4. Display Filters on IP Addresses
+
+IP-based filtering is one of the most commonly used techniques in Wireshark.
+
+### Filter traffic involving an IP
+
+```text
+ip.addr == 192.168.1.10
+```
+
+### Filter source IP
+
+```text
+ip.src == 192.168.1.10
+```
+
+### Filter destination IP
+
+```text
+ip.dst == 192.168.1.10
+```
+
+### Filter traffic between two IPs
+
+```text
+ip.addr == 192.168.1.10 && ip.addr == 192.168.1.20
+```
+
+These filters are useful when investigating communication between specific systems.
+
+---
+
+ 5. Display Filters on Ports
+
+Ports help identify which services or applications are communicating.
+
+### HTTP
+
+```text
+tcp.port == 80
+```
+
+### HTTPS
+
+```text
+tcp.port == 443
+```
+
+### DNS
+
+```text
+udp.port == 53
+```
+
+### SSH
+
+```text
+tcp.port == 22
+```
+
+### Source port
+
+```text
+tcp.srcport == 443
+```
+
+### Destination port
+
+```text
+tcp.dstport == 80
+```
+
+Port filtering can help identify specific services and investigate unusual connections.
+
+---
+
+ 6. Filtering Ports in Capture Filters
+
+Capture filters can also be used to limit traffic based on ports.
+
+Examples:
+
+```bash
+port 80
+```
+
+Capture traffic associated with port 80.
+
+```bash
+tcp port 443
+```
+
+Capture TCP traffic associated with HTTPS.
+
+```bash
+udp port 53
+```
+
+Capture UDP traffic associated with DNS.
+
+This is useful when I already know which service or protocol I want to investigate.
+
+---
+
+ 7. Capture Filters on Hosts
+
+Host-based capture filters allow traffic to be captured based on a particular machine.
+
+Example:
+
+```bash
+host 192.168.1.10
+```
+
+Traffic involving the host can be captured.
+
+### Source host
+
+```bash
+src host 192.168.1.10
+```
+
+### Destination host
+
+```bash
+dst host 192.168.1.10
+```
+
+Host filters are useful during investigations where a particular system is suspected of generating or receiving suspicious traffic.
+
+---
+
+ 8. Importance of Wireshark Profiles
+
+Wireshark **profiles** allow different configurations to be saved for different types of analysis.
+
+A profile can contain customized:
+
+* Display filters
+* Coloring rules
+* Column configurations
+* Preferences
+* Layout settings
+
+For example, I can create separate profiles for:
+
+ Network Troubleshooting
+
+Focus on:
+
+* TCP
+* DNS
+* DHCP
+* ICMP
+
+### 🔴 Security Analysis
+
+Focus on:
+
+* Suspicious connections
+* DNS anomalies
+* Scanning behavior
+* Unusual protocols
+* Authentication traffic
+
+ Web Traffic Analysis
+
+Focus on:
+
+* HTTP
+* HTTPS
+* TCP
+* DNS
+
+Profiles make Wireshark more organized and reduce the time required to configure the environment repeatedly.
+
+---
+
+ 9. Importance of Coloring Rules
+
+Wireshark coloring rules make packets easier to recognize visually.
+
+Different types of traffic can be highlighted using different colors.
+
+For example, coloring rules can help quickly identify:
+
+* TCP traffic
+* UDP traffic
+* DNS traffic
+* HTTP traffic
+* Errors
+* Retransmissions
+* Suspicious packets
+
+This is especially useful when working with large packet captures.
+
+Instead of reading every packet manually, coloring provides a quick visual indication of what type of traffic I am looking at.
+
+---
+
+ 10. Wireshark from a Cybersecurity Perspective
+
+Wireshark is not just a networking tool.
+
+It is also extremely valuable for cybersecurity.
+
+It can help security professionals investigate:
+
+* Port scanning
+* Suspicious connections
+* Malware communication
+* DNS activity
+* Command-and-control traffic
+* Network reconnaissance
+* Authentication traffic
+* Data leakage
+* Protocol anomalies
+* TCP connection problems
+
+For example, a large number of connection attempts to different ports from one host may indicate possible **network scanning**.
+
+Similarly, unusual DNS requests or unexpected external connections may require further investigation.
+
+---
+
+ Key Learning
+
+The most important concept I learned today was:
+
+> **Capture filters reduce what gets captured, while display filters reduce what gets displayed.**
+
+Understanding this difference is essential for efficient Wireshark analysis.
+
+I also learned that **profiles and coloring rules** can significantly improve the speed and readability of packet analysis.
+
+---
+
+ Skills Practiced
+
+* Wireshark packet analysis
+* Capture filters
+* Display filters
+* IP filtering
+* Port filtering
+* Host filtering
+* TCP/UDP analysis
+* Wireshark profiles
+* Coloring rules
+* Network traffic investigation
+* Basic security-focused packet analysis
+
+---
+
+ Takeaway
+
+Today was an important step in moving from simply **using Wireshark** to actually **analyzing network traffic efficiently**.
+
+I learned how to narrow down large packet captures, identify specific hosts and services, customize my analysis environment, and use Wireshark as a practical cybersecurity investigation tool.
+
+**Wireshark completed ✅**
+
+#CyberSecurity #Wireshark #NetworkSecurity #PacketAnalysis #Networking #CyberSecurityLearning #SOC #BlueTeam #EthicalHacking #LearningInPublic #100DaysOfCybersecurity
