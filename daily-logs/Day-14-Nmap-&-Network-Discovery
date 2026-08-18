@@ -1,0 +1,24 @@
+Day 14 — Nmap & Network Discovery 
+
+Today’s learning focused on Nmap, one of the most important tools for network discovery and security assessment.
+
+Topics Covered
+  Introduction to Nmap and its purpose
+  Setting up a practice lab for Nmap
+  Understanding port scanning
+  Revisiting the 7 layers of the OSI Model
+  Analyzing the Network Layer using Wireshark
+  Scanning TCP and UDP ports
+  Understanding TCP Headers
+  Studying the TCP 3-Way Handshake
+SYN
+SYN-ACK
+ACK
+  Understanding Network Discovery
+Key Takeaway
+
+Nmap helps security professionals identify live hosts, open ports, available services, and network information. Combining Nmap with Wireshark makes it easier to understand what actually happens at the packet level during scanning and communication.
+
+Day 14 complete ✅ | Learning → Practicing → Analyzing → Improving 🚀
+
+#Cybersecurity #Nmap #Networking #NetworkSecurity #Wireshark #EthicalHacking #PenetrationTesting #CyberSecurityJourney #100DaysOfCybersecurity
