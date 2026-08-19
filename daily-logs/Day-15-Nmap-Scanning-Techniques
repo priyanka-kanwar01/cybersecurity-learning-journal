@@ -1,0 +1,47 @@
+Day 15 — Nmap Scanning Techniques 
+
+Today I continued my hands-on learning with Nmap, focusing on different scanning techniques, firewall-aware scanning, host discovery, service detection, and scan analysis.
+
+  Topics Covered
+SYN, ACK, UDP & ARP Scans
+  Understanding different Nmap scan methods
+  How scans behave with firewalls and filtered ports
+  ARP-based host discovery on local networks
+ICMP Timestamp, Traceroute & DNS Resolution
+  Understanding ICMP-based discovery
+  Using traceroute to analyze network paths
+  DNS resolution during Nmap scans
+Scanning Linux-Based Machines
+  Performing host and port discovery
+  Identifying open, closed, and filtered ports
+Port Specification & Scan Order
+  Selecting specific ports and port ranges
+  Understanding how Nmap determines scan order
+Nmap Scan Techniques
+  -sS — SYN Scan
+  -sT — TCP Connect Scan
+  -sA — ACK Scan
+  -sW — Window Scan
+  -sM — Maimon Scan
+OS & Service Detection
+  -O — OS detection
+  -sV — Service/version detection
+  -A — Aggressive scan
+  UDP range scanning
+  Diagnosing and interpreting scan results
+Nmap Output & Verbosity
+  Understanding different output formats
+  Using verbosity to obtain more detailed scan information
+    
+    
+    Hands-On Practice
+
+I practiced these techniques in my authorized lab environment to understand how Nmap identifies hosts, ports, services, operating systems, and network behavior.
+
+  Key Takeaway
+
+Nmap is more than just a port scanner. Understanding scan techniques, firewall behavior, service detection, OS fingerprinting, and result diagnosis is essential for effective network reconnaissance and cybersecurity.
+
+Day 15 
+
+#Cybersecurity #Nmap #Networking #EthicalHacking #PenetrationTesting #NetworkSecurity #CyberSecurityLearning #100DaysOfCybersecurity #InfoSec #LearningInPublic
