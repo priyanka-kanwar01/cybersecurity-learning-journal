@@ -1,0 +1,22 @@
+Day 16 — TryHackMe: Pickle Rick
+
+Today I completed the Pickle Rick room on TryHackMe and scored 90 points.
+
+ What I Practiced
+Web enumeration
+Directory/file discovery
+Source-code analysis
+Finding hidden information
+Exploiting a vulnerable web application
+Command execution
+Linux enumeration
+Locating sensitive files
+Basic privilege escalation concepts
+Using tools like Nmap and web enumeration techniques
+ Key Takeaways
+
+This room helped me understand how information disclosure, web enumeration, and poor application security can be chained together to gain access to a target system.
+
+Platform: TryHackMe
+Room: Pickle Rick
+Score: 90 points 
