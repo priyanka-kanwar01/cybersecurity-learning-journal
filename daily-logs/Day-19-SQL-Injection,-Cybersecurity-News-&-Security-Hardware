@@ -1,0 +1,39 @@
+🚀 **Day 19 | SQL Injection, Cybersecurity News & Security Hardware**
+
+Today I focused on **SQL Injection, cybersecurity news, and security-related hardware/devices**.
+
+🔐 **What I Learned**
+
+💉 **SQL Injection (SQLi)**
+
+* What SQL Injection is and how it occurs
+* How improper handling of user input can affect database queries
+* Types: **In-band, Blind/Inferential, and Out-of-band SQLi**
+* Impact: data disclosure, modification, deletion, authentication bypass, and potentially deeper system compromise
+* Prevention: **Prepared Statements / Parameterized Queries, input validation, least-privilege database accounts**
+
+OWASP recommends parameterized queries as a primary defense against SQL Injection.
+
+📰 **Cybersecurity News**
+
+* Attackers are exploiting vulnerabilities in remote-support software to spread malware across Windows systems.
+* Thousands of internet-exposed Microsoft Exchange servers remain vulnerable to a high-severity authentication-bypass flaw.
+* AI-powered cybersecurity is becoming increasingly important, with new systems being developed to discover vulnerabilities and help automate patching.
+
+🖥️ **Security Hardware & Devices**
+
+* USB & malicious USB devices
+* ESP8266
+* USB Rubber Ducky
+* GPS & RFID devices
+* USB Flash Drive
+* SSD & HDD
+* IP/Smart Cameras
+* Smart TVs
+* IoT devices
+* Webcams
+
+🎯 **Key Takeaway:**
+Cybersecurity isn't limited to software. Understanding **databases, networks, hardware, IoT, and physical security** helps build a more complete security mindset.
+
+#Day19 #Cybersecurity #EthicalHacking #SQLInjection #SQLi #OWASP #InfoSec #CyberSecurityNews #IoT #RFID #ESP8266 #Networking #PenetrationTesting #LearningInPublic
