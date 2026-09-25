@@ -1,0 +1,193 @@
+# 🔎Nmap: Network Reconnaissance & Advanced Scanning
+
+Over the last two days, I focused on **Nmap (Network Mapper)** and its role in network reconnaissance, VAPT, and penetration testing.
+
+My main takeaway:
+
+> **Nmap is like reading a network's body language.**
+
+It helps identify hosts, ports, services, operating systems, and potential attack-surface information before deeper security testing.
+
+---
+
+# 📅 Day 1 — Nmap Fundamentals
+
+## 📌 Introduction to Nmap
+
+Learned:
+
+* What Nmap is
+* Where Nmap fits into cybersecurity careers
+* Its role in **VAPT, penetration testing, network security, and reconnaissance**
+* Why scanning activity can sometimes be detected before exploitation
+* Difference between **scanning and exploitation**
+* Legal and ethical considerations of network scanning
+
+## 🔍 Basic Scanning
+
+Explored:
+
+```bash
+nmap <target>
+nmap -iR <number>
+nmap -A <target>
+nmap -6 <target>
+nmap -Pn <target>
+nmap -iL targets.txt
+```
+
+## 🌐 Host Discovery
+
+Learned different host-discovery techniques:
+
+```bash
+nmap -sn <target>
+nmap -Pn <target>
+nmap -PS <target>
+nmap -PA <target>
+nmap -PU <target>
+```
+
+## 🚪 Port Scanning
+
+Studied different scanning techniques:
+
+```text
+-sT  TCP Connect Scan
+-sU  UDP Scan
+-sN  Null Scan
+-sF  FIN Scan
+-sX  Xmas Scan
+-sA  ACK Scan
+```
+
+## 💻 OS & Service Detection
+
+Explored:
+
+```bash
+nmap -O <target>
+nmap -sV <target>
+nmap --osscan-limit <target>
+```
+
+---
+
+# 📅 Day 2 — Nmap Timing & Advanced Scanning
+
+Day 2 focused on understanding **scan timing, packet behavior, firewall interaction, and advanced Nmap options.**
+
+## ⏱️ Timing Templates
+
+Explored Nmap timing templates:
+
+```text
+T0 → Paranoid
+T1 → Sneaky
+T2 → Polite
+T3 → Normal
+T4 → Aggressive
+T5 → Insane
+```
+
+Also learned about:
+
+```text
+--min-parallelism
+--max-parallelism
+--min-hostgroup
+--max-hostgroup
+--initial-rtt-timeout
+--max-rtt-timeout
+--max-retries
+--ttl
+--host-timeout
+```
+
+## 🕐 Time Formats
+
+Learned Nmap time-value formats:
+
+```text
+s → seconds
+m → minutes
+h → hours
+```
+
+## 📦 Scan Delay & Packet Rate
+
+Explored:
+
+```text
+--scan-delay
+--max-scan-delay
+--min-rate
+--max-rate
+--defeat-rst-ratelimit
+```
+
+This helped me understand the relationship between:
+
+**Scan speed ↔ Packet rate ↔ Network conditions ↔ Detection**
+
+---
+
+## 🔥 Firewall & Packet Manipulation
+
+Learned the basics of how firewalls work and explored:
+
+```text
+-f
+--mtu
+--send-eth
+```
+
+---
+
+## 🕵️ Advanced Nmap Techniques
+
+Studied the concepts behind:
+
+```text
+-D                  Decoy scanning
+-sI                 Idle/Zombie scanning
+--source-port / -g  Source-port manipulation
+--data-length       Add data to packets
+--randomize-hosts   Randomize target order
+--spoof-mac         MAC address spoofing
+--badsum             Invalid checksum testing
+```
+
+These techniques were studied from a **VAPT and authorized-security-testing perspective**.
+
+---
+
+# 🧠 Key Learnings
+
+Through Days 1-2, I learned that Nmap is much more than a tool for finding open ports.
+
+It can help build an understanding of a target's:
+
+* 🌐 Hosts
+* 🚪 Ports
+* 🔧 Services
+* 💻 Operating systems
+* ⚡ Network behavior
+* 🛡️ Firewall responses
+* 🔍 Attack surface
+
+### Biggest takeaway:
+
+> **Don't just memorize Nmap flags — understand how changing a scan parameter changes the behavior of the scan.**
+
+I also learned that **scanning ≠ exploitation**, and network scanning should always be performed within an authorized scope.
+
+---
+
+## 📚 What's Next?
+
+I'll continue building my Nmap knowledge and move toward more advanced **network enumeration, reconnaissance, and VAPT concepts**.
+
+**Days 2–3/100 ✅**
+
+#100DaysOfCybersecurity #Cybersecurity #Nmap #VAPT #PenetrationTesting #EthicalHacking #NetworkSecurity #KaliLinux #CyberSecurityJourney #LearningInPublic
