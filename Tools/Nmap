@@ -191,3 +191,68 @@ I'll continue building my Nmap knowledge and move toward more advanced **network
 **Days 2–3/100 ✅**
 
 #100DaysOfCybersecurity #Cybersecurity #Nmap #VAPT #PenetrationTesting #EthicalHacking #NetworkSecurity #KaliLinux #CyberSecurityJourney #LearningInPublic
+
+
+🚀 **Day 4/100 — Nmap & Wireshark | Network Recon & Packet Analysis**
+
+Today, I continued building my networking and cybersecurity fundamentals by learning more about **Nmap** and starting deeper with **Wireshark**.
+
+### 🔎 Nmap — What I Learned
+
+Today I explored:
+
+🔹 **Man & Grep Commands** — understanding how to access command documentation and search through command output/text.
+
+🔹 **Help Desk** — understanding the role of help desk support and how troubleshooting connects with IT and cybersecurity.
+
+🔹 **Packet Tracing** — understanding how packets travel through a network and how tracing can help with troubleshooting and analysis.
+
+🔹 **Nmap Scripting Engine (NSE)** — learned how Nmap can be extended with scripts for tasks such as service discovery, enumeration, vulnerability checks, and security testing.
+
+---
+
+### 🦈 Wireshark — Getting Started
+
+I also started working with **Wireshark**, a powerful network protocol analyzer.
+
+My learning included:
+
+💻 **Environment Setup**
+
+* Installing VMware Workstation
+* Setting up Kali Linux
+* Setting up Metasploitable 2
+* Exploring the Wireshark interface
+
+🔍 **Wireshark Filters**
+
+* Understanding different types of filters
+* Display filters
+* Capture filters
+* Optimizing display filters
+* Filtering traffic by **IP addresses**
+* Filtering traffic by **ports**
+* Filtering hosts during packet capture
+
+🎨 **Wireshark Customization**
+
+* Understanding the importance of **Wireshark Profiles**
+* Learning about **Coloring Rules** and how they make different types of network traffic easier to identify
+
+### 🧠 Biggest Takeaway
+
+Nmap helps answer:
+
+> **"What is exposed on the network?"**
+
+While Wireshark helps answer:
+
+> **"What is actually happening on the network?"**
+
+Understanding both tools together is helping me build a stronger foundation in **network reconnaissance, traffic analysis, and cybersecurity**.
+
+Still learning, practicing, documenting, and improving every day. 🔐
+
+**Day 4/100 ✅**
+
+#100DaysOfCybersecurity #Cybersecurity #Nmap #Wireshark #NetworkSecurity #PacketAnalysis #VAPT #PenetrationTesting #KaliLinux #Metasploitable2 #EthicalHacking #CyberSecurityJourney #LearningInPublic
