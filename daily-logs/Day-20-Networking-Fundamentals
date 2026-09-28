@@ -1,0 +1,90 @@
+# Day 6/100 — Networking Fundamentals 🔐
+
+Today I focused on strengthening my **networking fundamentals**, which are essential for understanding cybersecurity and penetration testing.
+
+## 📚 What I Learned
+
+### 1. OSI Model
+
+* Studied the **7 layers of the OSI model**
+* Understood the role of each layer
+* Learned how data moves through the different layers
+
+### 2. TCP/IP Model
+
+* Studied the layers of the TCP/IP model
+* Understood how it is used in real-world networking
+* Compared the **OSI model vs TCP/IP model**
+
+### 3. Common Networking Protocols
+
+| Protocol      | Purpose                                |
+| ------------- | -------------------------------------- |
+| HTTP / HTTPS  | Web communication                      |
+| FTP / FTPS    | File transfer                          |
+| SMTP / SMTPS  | Sending emails                         |
+| DNS           | Domain name resolution                 |
+| DHCP          | Automatic IP configuration             |
+| SSH           | Secure remote access                   |
+| Telnet        | Remote access                          |
+| POP3          | Receiving emails                       |
+| IMAP          | Managing emails                        |
+| NTP           | Time synchronization                   |
+| SMB / NetBIOS | Windows file/resource sharing          |
+| RDP           | Remote desktop                         |
+| ARP           | IP-to-MAC address resolution           |
+| TCP           | Reliable transport communication       |
+| UDP           | Connectionless transport communication |
+
+### 4. Database Services
+
+I also studied commonly encountered database services:
+
+* **Oracle Database**
+* **MySQL**
+* **PostgreSQL**
+
+Understanding these services is important during network enumeration because exposed database services can become part of the attack surface.
+
+## 🌐 Common Ports
+
+|    Port | Service         |
+| ------: | --------------- |
+|      21 | FTP             |
+|      22 | SSH             |
+|      23 | Telnet          |
+|      25 | SMTP            |
+|      53 | DNS             |
+|   67/68 | DHCP            |
+|      80 | HTTP            |
+|     110 | POP3            |
+|     123 | NTP             |
+| 139/445 | NetBIOS / SMB   |
+|     143 | IMAP            |
+|     443 | HTTPS           |
+|    1521 | Oracle Database |
+|    3306 | MySQL           |
+|    3389 | RDP             |
+|    5432 | PostgreSQL      |
+
+## 🔐 SSL & TLS Basics
+
+I also learned the basics of **SSL/TLS** and how encryption is used to secure communication between systems.
+
+One important example is **HTTPS**, which uses TLS to protect web traffic.
+
+## 💡 Key Takeaway
+
+I'm starting to understand that when performing network enumeration, an open port is not simply a number.
+
+**Open Port → Service → Version → Possible Attack Surface**
+
+This knowledge will help me better understand **Nmap scans, network enumeration, and penetration testing** as I continue practicing.
+
+## 🚀 Progress
+
+Still learning, practicing, documenting, and improving every day.
+
+**Day 6/100 completed ✅**
+
+#Cybersecurity #Networking #OSIModel #TCPIP #EthicalHacking #PenetrationTesting #NetworkSecurity #Nmap #100DaysOfCybersecurity
