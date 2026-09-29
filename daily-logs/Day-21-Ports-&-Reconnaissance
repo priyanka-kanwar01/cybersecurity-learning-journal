@@ -1,0 +1,127 @@
+# Day 21/100 — Ports & Reconnaissance
+
+## 📚 Topics Covered
+
+Today I learned about **network ports, reconnaissance, and defensive measures against reconnaissance and scanning activity**.
+
+### 🔹 1. Network Ports
+
+Ports are logical communication endpoints used by network services and applications.
+
+They help the operating system identify which service should receive network traffic.
+
+Examples:
+
+* **22** → SSH
+* **53** → DNS
+* **80** → HTTP
+* **443** → HTTPS
+* **3389** → RDP
+
+---
+
+### 🔹 2. Reconnaissance
+
+Reconnaissance is the process of gathering information about a target before attempting further security testing or an attack.
+
+Information may include:
+
+* IP addresses
+* Open ports
+* Running services
+* Technologies
+* Domains and subdomains
+* Network structure
+
+### Types of Reconnaissance
+
+#### 🟢 Passive Reconnaissance
+
+Information is collected **without directly interacting with the target infrastructure**.
+
+Examples:
+
+* Search engines
+* Public websites
+* WHOIS information
+* Public documents
+* Social media
+* Public DNS information
+
+#### 🔴 Active Reconnaissance
+
+The target is **directly interacted with** to gather information.
+
+Examples:
+
+* Port scanning
+* Service enumeration
+* Network probing
+* Banner grabbing
+
+### Active vs Passive Recon
+
+| Passive Recon                       | Active Recon                   |
+| ----------------------------------- | ------------------------------ |
+| No direct interaction with target   | Direct interaction with target |
+| Lower chance of detection           | More likely to appear in logs  |
+| Uses publicly available information | Uses network requests/probes   |
+| Generally quieter                   | Generally more noticeable      |
+
+---
+
+## 👀 3. How Scanning Looks from a Defender's View
+
+I also learned how reconnaissance and scanning activity can appear in security logs.
+
+A defender may observe:
+
+* Multiple connection attempts
+* Requests to many different ports
+* Repeated connections from one source IP
+* Unusual traffic patterns
+* Connection attempts to services that normally receive little traffic
+
+This helped me understand reconnaissance from both **attacker and defender perspectives**.
+
+---
+
+## 🛡️ 4. Defensive Measures
+
+I learned practical ways organizations can reduce their exposure:
+
+### Asset Inventory & Visibility
+
+Know what devices, servers, applications, and services exist in the environment.
+
+### Minimize Attack Surface
+
+Disable unnecessary services and close unnecessary ports.
+
+### Network Segmentation
+
+Separate networks and systems to limit unauthorized movement between them.
+
+### Strong Authentication
+
+Use strong passwords, MFA, and appropriate access controls.
+
+### Rate Limiting & IP Blocking
+
+Limit excessive requests and block suspicious sources when appropriate.
+
+### Backup & Recovery
+
+Maintain reliable backups and recovery procedures so systems can be restored after security incidents.
+
+---
+
+## 💡 Key Takeaway
+
+Reconnaissance is an important part of cybersecurity. Understanding how attackers gather information helps defenders improve **visibility, monitoring, and attack-surface management**.
+
+**Learning → Practicing → Documenting → Improving 🚀**
+
+This is **Day 7/100** of my cybersecurity learning journey.
+
+#Cybersecurity #100DaysOfCybersecurity #Reconnaissance #NetworkSecurity #Networking #EthicalHacking #Infosec #CyberSecurityJourney
