@@ -1,0 +1,136 @@
+# Day 22/100 — Computer Storage
+
+Today I learned about **Computer Storage** and the three major categories of storage:
+
+## 1. DAS — Direct Attached Storage
+
+**DAS (Direct Attached Storage)** is storage that is directly connected to a computer, workstation, or server.
+
+### Examples
+
+* HDD
+* SSD
+* USB/Pen Drive
+* External Hard Drive
+
+### Advantages
+
+* High performance
+* Easy to set up
+* Low cost
+* No network required
+
+---
+
+## 2. NAS — Network Attached Storage
+
+**NAS (Network Attached Storage)** is a storage device connected to a network that allows multiple computers to access data from a central location.
+
+### Common Protocols
+
+* **NFS** — Network File System
+* **CIFS** — Common Internet File System
+
+NAS devices can also be managed through a web browser using **HTTP/HTTPS**.
+
+### Uses
+
+* File sharing
+* Backups
+* Archiving
+* Multimedia storage
+* Disaster recovery
+* Application testing
+
+### Cybersecurity Perspective
+
+Because NAS is connected to a network, security is important.
+
+Potential issues include:
+
+* Weak passwords
+* Incorrect permissions
+* Exposed management interfaces
+* Misconfigured network access
+
+---
+
+## 3. SAN — Storage Area Network
+
+**SAN (Storage Area Network)** is a dedicated high-speed network designed specifically for storage.
+
+It allows multiple servers to access shared storage.
+
+### Main Components
+
+* HBA (Host Bus Adapter)
+* SAN Switch
+* Storage Devices
+* Cables
+* CNA (Converged Network Adapter), depending on the protocol
+
+### SAN Protocols
+
+1. **Fibre Channel (FC)**
+2. **iSCSI**
+3. **FCoE — Fibre Channel over Ethernet**
+
+### SAN Architecture
+
+```text
+Server 1 ── HBA ──┐
+Server 2 ── HBA ──┼── SAN Switch ── Storage
+Server 3 ── HBA ──┘
+```
+
+---
+
+## DAS vs NAS vs SAN
+
+| Feature          | DAS                     | NAS                      | SAN                       |
+| ---------------- | ----------------------- | ------------------------ | ------------------------- |
+| Full Form        | Direct Attached Storage | Network Attached Storage | Storage Area Network      |
+| Connection       | Direct                  | Normal Network           | Dedicated Storage Network |
+| Main Use         | Local Storage           | File Sharing             | Shared Enterprise Storage |
+| Multiple Systems | Limited                 | Yes                      | Yes                       |
+| Network Required | No                      | Yes                      | Yes                       |
+| Complexity       | Low                     | Medium                   | High                      |
+| Cost             | Low                     | Medium                   | High                      |
+
+---
+
+## 🔐 Cybersecurity Takeaway
+
+Storage systems contain valuable data, so understanding them is important for cybersecurity.
+
+A security professional should understand:
+
+* Access control
+* Authentication
+* Permissions
+* Network exposure
+* Secure management interfaces
+* Data protection
+* Backup and recovery
+
+### Key Memory Lines
+
+> **DAS → Directly connected storage**
+
+> **NAS → Network-based file storage**
+
+> **SAN → Dedicated storage network**
+
+## What I Learned Today
+
+* Basics of computer storage
+* DAS, NAS, and SAN
+* NAS protocols: NFS and CIFS
+* SAN architecture
+* HBA and SAN switches
+* SAN protocols: Fibre Channel, iSCSI, and FCoE
+* Storage security from a cybersecurity perspective
+
+**Day 8 completed! 🚀**
+
+#100DaysOfCybersecurity #Cybersecurity #Networking #Storage #DAS #NAS #SAN #InfoSec #EthicalHacking #CyberSecurityJourney
