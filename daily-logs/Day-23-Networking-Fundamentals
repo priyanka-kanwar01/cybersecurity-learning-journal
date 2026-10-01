@@ -1,0 +1,171 @@
+# Day 23/100 — Networking Fundamentals
+
+Today I focused on strengthening my **networking fundamentals**, which are essential for understanding cybersecurity, network security, and penetration testing.
+
+## 📚 Topics Covered
+
+### 1. VLAN — Virtual Local Area Network
+
+* Logically divides a physical network into separate network segments.
+* Helps with **network segmentation and security**.
+* Example: HR, IT, and Finance can be placed in different VLANs.
+
+### 2. DMZ — Demilitarized Zone
+
+* A separate network segment used for **public-facing services**.
+* Common examples: Web servers, Mail servers, and DNS servers.
+* Helps isolate Internet-facing systems from the internal network.
+
+### 3. ARP — Address Resolution Protocol
+
+* Maps an **IP address to a MAC address** on a local network.
+* Used when a device needs to communicate with another device on the same network.
+* Security concern: **ARP Spoofing/ARP Poisoning**.
+
+### 4. VM — Virtual Machine
+
+* A virtual computer running inside a physical computer.
+* Example lab setup:
+
+```text
+Windows Host
+     ↓
+VMware Workstation
+     ↓
+Kali Linux + Metasploitable 2
+```
+
+### 5. DHCP — Dynamic Host Configuration Protocol
+
+Automatically provides network configuration such as:
+
+* IP address
+* Subnet mask
+* Default gateway
+* DNS server
+
+**DORA:** Discover → Offer → Request → Acknowledge
+
+### 6. DNS — Domain Name System
+
+Converts domain names into IP addresses.
+
+```text
+google.com → IP Address
+```
+
+Security concepts include:
+
+* DNS Spoofing
+* DNS Cache Poisoning
+* DNS Tunneling
+
+### 7. NAT — Network Address Translation
+
+Translates private IP addresses to public IP addresses and vice versa.
+
+Example:
+
+```text
+192.168.1.10 ─┐
+192.168.1.11 ─┼──→ NAT Router → Public IP
+192.168.1.12 ─┘
+```
+
+### 8. IP Address
+
+A logical address used to identify a device/interface on a network.
+
+Types studied:
+
+* IPv4
+* IPv6
+* Private IP
+* Public IP
+
+### 9. Router
+
+Connects different networks and forwards packets using IP addresses.
+
+```text
+LAN → Router → Internet
+```
+
+### 10. Switch
+
+Connects devices within a local network and forwards frames using **MAC addresses**.
+
+```text
+PC ─┐
+PC ─┼── Switch
+PC ─┘
+```
+
+### 11. VPN — Virtual Private Network
+
+Creates an encrypted connection between a device and a VPN server.
+
+Common uses:
+
+* Secure remote access
+* Protecting traffic on public Wi-Fi
+* Connecting to private networks
+
+### 12. IPAM — IP Address Management
+
+Used to manage and track:
+
+* IP addresses
+* Subnets
+* Devices
+* DHCP information
+* DNS information
+* Available and assigned addresses
+
+### 13. Network Topologies
+
+Learned different ways devices can be organized in a network:
+
+* Star
+* Bus
+* Ring
+* Mesh
+* Hybrid
+
+### 14. Network Protocols
+
+Learned the purpose of important protocols:
+
+| Protocol | Purpose                           |
+| -------- | --------------------------------- |
+| TCP      | Reliable communication            |
+| UDP      | Fast connectionless communication |
+| HTTP     | Web communication                 |
+| HTTPS    | Secure web communication          |
+| DNS      | Domain name resolution            |
+| DHCP     | Automatic IP configuration        |
+| ARP      | IP-to-MAC resolution              |
+| ICMP     | Network diagnostics/control       |
+
+## 🛡️ Cybersecurity Perspective
+
+Understanding networking helps me better understand:
+
+* Network reconnaissance
+* Traffic analysis
+* Network segmentation
+* Attack surfaces
+* ARP-based attacks
+* DNS attacks
+* Network monitoring
+* Secure network architecture
+* Penetration testing
+
+## 🎯 Key Takeaway
+
+> **Before learning how to attack or defend a network, I need to understand how the network actually works.**
+
+Day 23 completed.
+**Learning → Practicing → Documenting → Improving.** 🔐💻
+
+#100DaysOfCybersecurity #Cybersecurity #Networking #EthicalHacking #PenetrationTesting #NetworkSecurity #VLAN #DMZ #ARP #DNS #DHCP #NAT #VPN #IPAM
