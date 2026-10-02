@@ -1,0 +1,279 @@
+# Day 24/100 — Virtualization Basics
+
+Today I learned about the **basics of virtualization**, hypervisors, Virtual Machines (VMs), Host OS, Guest OS, and common virtualization technologies.
+
+## 🖥️ What is Virtualization?
+
+**Virtualization** is a technology that allows us to create virtual versions of computers, servers, operating systems, storage, and networks using physical hardware.
+
+A single physical computer can run multiple isolated **Virtual Machines (VMs)**.
+
+### Basic Structure
+
+```text
+Physical Hardware
+       ↓
+   Hypervisor
+       ↓
+ ┌───────────────┐
+ │      VM 1     │
+ │   Guest OS    │
+ └───────────────┘
+ ┌───────────────┐
+ │      VM 2     │
+ │   Guest OS    │
+ └───────────────┘
+```
+
+---
+
+## 🔹 Host OS
+
+The **Host OS** is the operating system installed directly on the physical computer.
+
+### Example
+
+```text
+Physical Laptop
+      ↓
+Windows 11 (Host OS)
+      ↓
+VMware Workstation
+      ↓
+Kali Linux VM
+```
+
+The Windows system is the **Host OS**.
+
+---
+
+## 🔹 Guest OS
+
+A **Guest OS** is an operating system running inside a Virtual Machine.
+
+Examples:
+
+* Kali Linux
+* Ubuntu
+* Windows
+* Debian
+* Metasploitable
+
+For example:
+
+```text
+Windows 11 → Host OS
+Kali Linux → Guest OS
+```
+
+---
+
+## 🔹 Virtual Machine (VM)
+
+A **Virtual Machine** is a software-based computer that behaves like a physical computer.
+
+A VM can have:
+
+* Virtual CPU
+* Virtual RAM
+* Virtual Hard Disk
+* Virtual Network Adapter
+* Guest Operating System
+
+For example, I can run **Kali Linux inside VMware Workstation** without installing Kali directly on my physical laptop.
+
+---
+
+# 🔹 Hypervisor
+
+A **Hypervisor** is software or a virtualization layer that creates and manages Virtual Machines.
+
+It controls access to physical resources such as:
+
+* CPU
+* RAM
+* Storage
+* Network
+
+There are two main types of hypervisors.
+
+## 1️⃣ Type 1 — Bare-Metal Hypervisor
+
+A Type 1 hypervisor runs **directly on physical hardware**.
+
+```text
+Physical Hardware
+       ↓
+Type 1 Hypervisor
+       ↓
+     VMs
+```
+
+Examples:
+
+* VMware ESXi
+* Microsoft Hyper-V
+* Proxmox VE
+
+Type 1 hypervisors are commonly used in **servers and data centers**.
+
+---
+
+## 2️⃣ Type 2 — Hosted Hypervisor
+
+A Type 2 hypervisor runs **on top of an existing Host OS**.
+
+```text
+Physical Hardware
+       ↓
+    Host OS
+       ↓
+Type 2 Hypervisor
+       ↓
+     VMs
+```
+
+Examples:
+
+* VMware Workstation
+* Oracle VirtualBox
+
+These are commonly useful for **learning, development, testing, and cybersecurity labs**.
+
+---
+
+# 🔹 Common Virtualization Technologies
+
+## VMware
+
+VMware provides virtualization technologies for desktop and enterprise environments.
+
+Example:
+
+**VMware Workstation** → Type 2 virtualization
+
+It can be used to run Kali Linux, Ubuntu, Windows, and other operating systems as VMs.
+
+---
+
+## VirtualBox
+
+**Oracle VirtualBox** is a popular virtualization platform that can be used to create and run VMs.
+
+It is commonly used for:
+
+* Learning
+* Testing
+* Development
+* Cybersecurity labs
+
+Example:
+
+```text
+Windows Host
+     ↓
+VirtualBox
+     ↓
+Kali Linux VM
+```
+
+---
+
+## VMware ESXi
+
+**VMware ESXi** is a **Type 1 hypervisor**.
+
+It runs directly on physical server hardware and allows administrators to run and manage multiple VMs.
+
+```text
+Server Hardware
+      ↓
+   VMware ESXi
+      ↓
+ ┌──────┬──────┬──────┐
+ │ VM 1 │ VM 2 │ VM 3 │
+ └──────┴──────┴──────┘
+```
+
+---
+
+## Proxmox VE
+
+**Proxmox Virtual Environment (VE)** is an open-source virtualization platform.
+
+It supports:
+
+* **KVM** → Full Virtual Machines
+* **LXC** → Lightweight Containers
+
+It can be used to manage virtualized servers through a web-based interface.
+
+---
+
+# 🔐 Virtualization in Cybersecurity
+
+Virtualization is very useful for cybersecurity learning and testing.
+
+It allows us to build isolated environments such as:
+
+```text
+Host Computer
+      ↓
+Virtualization Platform
+      ↓
+ ┌───────────────┐
+ │   Kali Linux  │
+ │   Attacker    │
+ └───────────────┘
+        ↕
+ ┌───────────────┐
+ │ Metasploitable│
+ │    Target     │
+ └───────────────┘
+```
+
+This can be used for:
+
+* Penetration testing practice
+* Vulnerability assessment
+* Network security labs
+* Malware analysis in controlled environments
+* Web security testing
+* Learning Linux and Windows security
+* Building isolated cybersecurity labs
+
+### 📌 Snapshots
+
+One useful feature of virtualization is **snapshots**.
+
+A snapshot can save the state of a VM at a particular point in time.
+
+If a lab configuration breaks, the VM can often be restored to an earlier snapshot.
+
+---
+
+# 🧠 Key Takeaways
+
+| Concept                | Meaning                               |
+| ---------------------- | ------------------------------------- |
+| **Virtualization**     | Creating virtual computing resources  |
+| **VM**                 | A virtual computer                    |
+| **Host OS**            | OS running on the physical machine    |
+| **Guest OS**           | OS running inside a VM                |
+| **Hypervisor**         | Creates and manages VMs               |
+| **Type 1**             | Hypervisor runs directly on hardware  |
+| **Type 2**             | Hypervisor runs on a Host OS          |
+| **VMware ESXi**        | Type 1 hypervisor                     |
+| **VMware Workstation** | Type 2 hypervisor                     |
+| **VirtualBox**         | Type 2 hypervisor                     |
+| **Proxmox VE**         | Virtualization platform using KVM/LXC |
+
+## 📚 Day 24/100 Complete
+
+Today I strengthened my understanding of **virtualization, VMs, hypervisors, Host OS, Guest OS, VMware, VirtualBox, ESXi, and Proxmox**.
+
+> Learning → Practicing → Documenting → Improving 🚀
+
+**Next:** Continue building my cybersecurity fundamentals and practical lab skills.
+
+#Cybersecurity #100DaysOfCybersecurity #Virtualization #VMware #VirtualBox #ESXi #Proxmox #Hypervisor #KaliLinux #CybersecurityLearning
