@@ -1,0 +1,160 @@
+# 🔐 Day 25/100 — Networking & Security Tools
+
+Today I learned about some important **networking, troubleshooting, DNS, scanning, and traffic-analysis tools** used in cybersecurity.
+
+## 📚 Topics Learned
+
+### 1. `ipconfig`
+
+`ipconfig` is a Windows command used to view and manage network configuration.
+
+It can show:
+
+* IP address
+* Subnet mask
+* Default gateway
+* DNS information
+
+Useful commands:
+
+```bash
+ipconfig
+ipconfig /all
+ipconfig /release
+ipconfig /renew
+ipconfig /flushdns
+```
+
+---
+
+### 2. `ping`
+
+`ping` is used to test whether a device or server is reachable over a network.
+
+It uses **ICMP (Internet Control Message Protocol)** to send packets and receive replies.
+
+Example:
+
+```bash
+ping 8.8.8.8
+```
+
+It can help identify:
+
+* Network connectivity
+* Packet loss
+* Response time/latency
+* Whether a host is reachable
+
+---
+
+### 3. `dig`
+
+`dig` stands for **Domain Information Groper**.
+
+It is a DNS troubleshooting and information-gathering tool used to query DNS records.
+
+Example:
+
+```bash
+dig example.com
+```
+
+It can be used to investigate records such as:
+
+* A
+* AAAA
+* MX
+* NS
+* TXT
+* CNAME
+
+Example:
+
+```bash
+dig example.com MX
+```
+
+---
+
+### 4. `Nmap`
+
+**Nmap (Network Mapper)** is a network scanning and reconnaissance tool.
+
+It can be used to:
+
+* Discover hosts
+* Scan ports
+* Identify services
+* Detect service versions
+* Perform network reconnaissance
+
+Example:
+
+```bash
+nmap 192.168.1.1
+```
+
+Service detection:
+
+```bash
+nmap -sV 192.168.1.1
+```
+
+Host discovery:
+
+```bash
+nmap -sn 192.168.1.0/24
+```
+
+I am practicing Nmap only in **authorized labs and environments**.
+
+---
+
+### 5. Protocol Analyzer
+
+A **protocol analyzer** captures and analyzes network traffic.
+
+A popular example is **Wireshark**.
+
+It helps us understand:
+
+* Packets
+* Protocols
+* Source and destination IPs
+* Ports
+* Network conversations
+* Suspicious or unusual traffic
+
+Example protocols that can be analyzed:
+
+* TCP
+* UDP
+* DNS
+* HTTP
+* ICMP
+* ARP
+
+---
+
+## 🧠 Key Takeaways
+
+Today I learned how different tools serve different purposes:
+
+| Tool       | Main Purpose                      |
+| ---------- | --------------------------------- |
+| `ipconfig` | View network configuration        |
+| `ping`     | Test connectivity                 |
+| `dig`      | Analyze DNS                       |
+| `Nmap`     | Network discovery & scanning      |
+| Wireshark  | Capture & analyze network traffic |
+
+### 🎯 What I Learned
+
+These tools provide different views of a network—from **IP configuration and connectivity to DNS, open services, and individual packets**.
+
+Continuing my journey of **learning → practicing → documenting → improving**. 🔐
+
+---
+
+**#Day25 #100DaysOfCybersecurity #Cybersecurity #Networking #Nmap #Wireshark #DNS #NetworkSecurity #EthicalHacking #LearningInPublic**
