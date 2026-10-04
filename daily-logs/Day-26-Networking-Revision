@@ -1,0 +1,77 @@
+# Day 26/100 — Networking Revision 🌐🔐
+
+Today, I revised the **fundamentals of computer networking** from a cybersecurity perspective.
+
+## 📚 Topics Revised
+
+### Networking Models
+
+* OSI Model
+* TCP/IP Model
+* OSI vs TCP/IP
+
+### IP & Network Fundamentals
+
+* IP Address
+* IPv4
+* IPv6
+* MAC Address
+* ARP
+* Subnetting
+* CIDR
+* Network Topologies
+
+### Network Protocols
+
+* TCP vs UDP
+* DNS
+* DHCP
+* HTTP
+* HTTPS
+* FTP
+* SSH
+* SMTP
+* TCP 3-Way Handshake
+* NTP
+* RIP
+* OSPF
+* SMB/NetBIOS
+
+### Network Devices & Technologies
+
+* Router
+* Switch
+* Hub
+* NAT
+* VPN
+* VLAN
+* DMZ
+* Firewall
+* SAN
+* NAS
+* IPAM
+
+## 🔐 Cybersecurity Perspective
+
+Networking is one of the most important foundations of cybersecurity.
+
+Understanding how networks work helps in:
+
+* 🔎 Reconnaissance
+* 🛰️ Network scanning
+* 📡 Traffic analysis
+* 🛡️ Network security
+* 🔥 Firewall analysis
+* 🌐 Understanding attack surfaces
+* 🕵️ Detecting suspicious network activity
+* 🧪 Penetration testing
+
+## 💡 Key Takeaway
+
+> **To understand cybersecurity, you first need to understand how systems communicate.**
+
+Today's revision helped me strengthen my networking fundamentals and connect different networking concepts with practical cybersecurity.
+
+🚀 **Learning → Practicing → Revising → Improving**
+
+#100DaysOfCybersecurity #Cybersecurity #Networking #NetworkSecurity #EthicalHacking #Pentesting #InfoSec #LearningInPublic
