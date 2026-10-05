@@ -1,0 +1,51 @@
+# Cybersecurity Learning Update
+
+Today I strengthened my understanding of several core cybersecurity concepts:
+
+### 🛡️ Security Teams
+
+* Red Team — Offensive security and attack simulation
+* Blue Team — Defense, detection, and incident response
+* Purple Team — Collaboration between Red and Blue Teams
+
+### 🎯 Detection Concepts
+
+* True Positive (TP)
+* True Negative (TN)
+* False Positive (FP)
+* False Negative (FN)
+
+### 🌐 Networking & Security
+
+* Understanding TCP handshakes
+* CIA Triad:
+
+  * Confidentiality
+  * Integrity
+  * Availability
+
+### ⬆️ Privilege Escalation
+
+Learned the fundamentals of privilege escalation and how attackers can exploit misconfigurations or vulnerabilities to gain higher-level privileges.
+
+### 🌍 Web Security
+
+Studied common web-based attacks and how web application vulnerabilities can be exploited and mitigated.
+
+### 🛡️ OWASP Top 10 — 2025
+
+Completed **Identification and Authentication Failures (IAAA Failures)** from the OWASP Top 10 2025.
+
+### 🦠 Malware
+
+Learned:
+
+* How malware works at a high level
+* Common malware types
+* Their purposes and potential impact
+
+### Key Takeaway
+
+The focus is on understanding **how attacks work, how defenders detect them, and how vulnerabilities can be prevented or mitigated**.
+
+Continuing to learn, practice, document, and improve my cybersecurity skills.
