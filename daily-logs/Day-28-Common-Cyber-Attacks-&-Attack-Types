@@ -1,0 +1,62 @@
+# Day 28/100 — Common Cyber Attacks & Attack Types
+
+Today I studied different types of cyber attacks, with a focus on **social engineering, phishing, reconnaissance, authentication attacks, and web-based attacks**.
+
+## Topics Covered
+
+### 1. Social Engineering & Reconnaissance
+
+* **Social Engineering** — Manipulating people into revealing information or performing an action.
+* **Reconnaissance** — Gathering information about a target before an attack.
+* **Impersonation** — Pretending to be a trusted person or organization.
+* **Shoulder Surfing** — Observing someone to steal sensitive information.
+* **Tailgating** — Following an authorized person into a restricted area.
+* **Dumpster Diving** — Searching discarded materials for sensitive information.
+
+### 2. Phishing Attacks
+
+* **Phishing** — Fraudulent messages designed to steal information.
+* **Vishing** — Phishing through voice calls.
+* **Whaling** — Targeting high-value individuals such as executives.
+* **Smishing** — Phishing through SMS/text messages.
+
+### 3. Spam vs Spim
+
+| Spam                                | Spim                                         |
+| ----------------------------------- | -------------------------------------------- |
+| Unwanted bulk messages              | Spam through instant messaging               |
+| Commonly associated with email      | Commonly associated with messaging platforms |
+| Example: unwanted promotional email | Example: unwanted promotional chat message   |
+
+### 4. Web & Application Attacks
+
+* **Watering Hole Attack** — Compromising a website frequently visited by intended victims.
+* **Drive-by Attack** — Exploiting users through a malicious or compromised website.
+* **Typosquatting** — Using lookalike domains based on common typing mistakes.
+* **Zero-Day** — Exploiting a previously unknown or unpatched vulnerability before an effective fix is available.
+
+### 5. Authentication Attacks
+
+* **Brute Force** — Trying many password combinations against an account.
+* **Password Spraying** — Trying a small number of common passwords across many accounts.
+
+## Key Takeaways
+
+* Not every cyber attack requires advanced technical exploitation.
+* **Human behavior and trust** are major targets in many attacks.
+* Phishing has multiple forms depending on the communication channel and target.
+* Brute force and password spraying are different approaches to password attacks.
+* Reconnaissance is an important part of understanding the attack surface.
+* Security awareness, strong authentication, and proper security controls can reduce risk.
+
+## What I Learned
+
+Today's session helped me understand how attackers can combine **reconnaissance, social engineering, technical vulnerabilities, and authentication attacks** to compromise systems or users.
+
+**Still learning. Still practicing. Still improving. 🚀**
+
+### Progress
+
+**Day 28/100 ✅**
+
+#CyberSecurity #EthicalHacking #InformationSecurity #CyberAwareness #Phishing #SocialEngineering #100DaysOfCybersecurity
