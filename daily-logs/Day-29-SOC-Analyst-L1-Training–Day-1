@@ -1,0 +1,60 @@
+# 🔐 Day 29 SOC Analyst L1 Training – Day 1
+
+Today, I attended the **first session of SOC Analyst L1 training** and gained a clearer understanding of how a Security Operations Center works.
+
+## 📌 What I Learned
+
+### 🛡️ What is a SOC?
+
+A **Security Operations Center (SOC)** continuously monitors an organization's infrastructure to detect, analyze, and respond to security threats.
+
+### 🔄 SOC vs NOC vs Incident Response
+
+* **SOC:** Monitors security events, detects threats, and analyzes alerts.
+* **NOC:** Focuses on network performance, availability, and connectivity.
+* **Incident Response:** Handles confirmed incidents, including containment and forensic activities.
+
+### 👨‍💻 SOC Analyst L1 Responsibilities
+
+* Monitor and analyze security alerts
+* Identify false positives
+* Investigate security incidents
+* Find the root cause of security events
+* Escalate complex incidents to L2/L3
+* Prepare reports and documentation
+* Support patching and configuration activities
+
+### 🧰 Technologies & Concepts
+
+I was introduced to:
+
+* SIEM
+* Splunk
+* Firewalls
+* IPS
+* WAF
+* DDoS Protection
+* EDR
+* SOAR
+* Incident Response
+* Packet Analysis
+
+### ⏱️ Dwell Time
+
+One concept that stood out to me was **Dwell Time** — the amount of time an attacker remains undetected inside a network.
+
+A key goal of a SOC is to reduce dwell time through **continuous monitoring, rapid detection, investigation, and response**.
+
+## 💡 Key Takeaway
+
+SOC analysis isn't just about monitoring alerts. It requires:
+
+**Networking + Analytical Thinking + Investigation + Troubleshooting + Continuous Learning**
+
+I'm looking forward to building these skills through hands-on labs and documenting my progress.
+
+### 🚀 Learning Journey
+
+**Learning → Practicing → Documenting → Improving**
+
+#CyberSecurity #SOC #SOCAnalyst #BlueTeam #SIEM #IncidentResponse #InformationSecurity #CyberSecurityJourney
