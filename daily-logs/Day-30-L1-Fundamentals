@@ -1,0 +1,31 @@
+# 🔐 Day 30/100 — SOC Analyst L1 Fundamentals
+
+Today, I learned the **fundamentals of a Security Operations Center (SOC)** and the role of a **SOC Analyst L1**.
+
+## 📌 What I Learned
+
+* **SOC:** Continuous security monitoring, detection, and response.
+* **SOC Analyst L1:** First responder who monitors, triages, validates, investigates, escalates, and documents alerts.
+* **SOC Hierarchy:** L1 → L2 → L3 → Security/Detection Engineers → SOC Manager → CISO.
+* **SOC Foundations:** People + Process + Technology.
+* **Alert Triage:** Initial assessment → Log analysis → Context gathering → Decision.
+* **5 W's:** What, When, Where, Who, Why.
+* **True Positive vs False Positive**
+* **Threat Intelligence** for checking IPs, domains, accounts, and suspicious activity.
+* **Security Technologies:** SIEM, EDR, XDR, Firewall, IDS/IPS, EPP, Email Security, and automation.
+* **Common Investigations:** Phishing, malware, brute-force attacks, and ransomware.
+* **Documentation:** Recording alerts, evidence, investigation steps, findings, actions, and decisions.
+
+## 🔄 Basic SOC Workflow
+
+**Monitor → Triage → Validate → Investigate → Escalate → Document**
+
+## 🎯 Key Takeaway
+
+A SOC analyst is not just monitoring alerts. Effective SOC work requires **analysis, investigation, decision-making, communication, and proper documentation**.
+
+I'm continuing to connect these fundamentals with **hands-on labs and practical investigations**.
+
+### 🛡️ Learning • Practicing • Documenting
+
+#Cybersecurity #SOC #SOCAnalyst #BlueTeam #CyberDefense #InformationSecurity #100DaysOfCybersecurity
