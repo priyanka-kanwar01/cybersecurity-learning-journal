@@ -1,0 +1,131 @@
+# 🔐 Day 31/100 — SOC Analyst L1: Session 3
+
+## 📌 Topic: SOC Operations, Attack Vectors & Vulnerabilities
+
+Today, I continued my SOC Analyst L1 learning journey by exploring SOC operating models, security team roles, common attack vectors, software vulnerabilities, and defensive security practices.
+
+The session helped me understand how attackers exploit weaknesses and how SOC teams help detect, investigate, and prevent security incidents.
+
+## 📚 Topics Covered
+
+### 1. SOC Operating Models
+
+* In-house SOC
+* Outsourced SOC
+* Hybrid SOC
+* MSP (Managed Service Provider)
+* MSSP (Managed Security Service Provider)
+
+### 2. SOC Team Roles
+
+* SOC Analyst L1, L2, and L3
+* Incident Responder
+* Threat Hunter
+* Security Engineer
+* SOC Manager
+
+### 3. System Attack Vectors
+
+Learned about common methods attackers use to compromise systems:
+
+* Software vulnerabilities
+* Weak administrator credentials
+* Exposed services
+* SQL Injection (SQLi)
+* Remote Code Execution (RCE)
+* Malware and compromised software components
+
+### 4. Human-Oriented Attacks
+
+Explored how human behavior can introduce security risks, including:
+
+* Suspicious links and malicious email attachments
+* Pirated or untrusted software
+* Unknown USB devices
+* Weak passwords
+* Insecure credential storage
+
+### 5. Zero Trust Security
+
+**Core principle: Never Trust, Always Verify.**
+
+Key concepts:
+
+* Verify users and devices.
+* Enforce access controls.
+* Apply the principle of least privilege.
+* Never automatically trust users or devices based on their network location.
+
+### 6. Supply Chain Attacks
+
+Studied how attackers compromise trusted vendors, software components, or updates to reach other organizations.
+
+Examples:
+
+* SolarWinds attack
+* 3CX supply chain compromise
+
+### 7. Software Vulnerabilities
+
+Learned about:
+
+* Zero-day vulnerabilities
+* Shellshock — a Bash vulnerability
+* Log4Shell — a vulnerability affecting the Log4j logging library
+
+### 8. Common Exploitation Scenarios
+
+* SQL Injection (SQLi)
+* Remote Code Execution (RCE)
+* Brute-force attacks
+* Abuse of exposed services
+* Malware execution
+
+### 9. Malware Persistence
+
+Understood how malware can maintain access after initial execution, including after a system restart, and why suspicious persistence mechanisms require investigation.
+
+### 10. Security Controls and Defense
+
+Important defensive practices include:
+
+* Applying security patches and software updates
+* Protecting administrator credentials
+* Monitoring exposed services
+* Using endpoint protection
+* Enforcing appropriate access controls
+* Investigating suspicious activity
+* Continuously monitoring and improving security controls
+
+## 🎯 Key Learnings
+
+* Understand how attackers gain initial access.
+* Recognize common attack vectors and vulnerabilities.
+* Understand the importance of Zero Trust.
+* Identify risks associated with human behavior and third-party software.
+* Learn why malware persistence matters during investigations.
+* Understand the responsibilities of a SOC Analyst L1.
+* Strengthen theoretical knowledge alongside hands-on practice.
+
+## 💡 Key Takeaway
+
+A SOC analyst must understand not only what an attack is, but also how it happens, what suspicious activity it may generate, and how to investigate and escalate potential security incidents.
+
+My goal is to turn these concepts into practical investigation skills through hands-on labs and continuous learning.
+
+## 🚀 What's Next?
+
+* Continue learning SOC operations.
+* Practice security monitoring and alert investigation.
+* Explore hands-on defensive security labs.
+* Document my progress throughout this 100-day cybersecurity challenge.
+
+**Learning consistently. Practicing responsibly. Improving every day.** 🔐
+
+---
+
+### 🛠️ Skills & Concepts
+
+`SOC Operations` `SOC Analyst L1` `Attack Vectors` `Vulnerability Management` `Zero Trust` `Supply Chain Security` `SQL Injection` `Remote Code Execution` `Malware Persistence` `Threat Detection` `Incident Response` `Blue Team`
+
+#Cybersecurity #SOCAnalyst #BlueTeam #InfoSec #100DaysOfCybersecurity
