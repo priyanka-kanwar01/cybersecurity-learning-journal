@@ -1,0 +1,102 @@
+# 🔐 Day 32/100 — Cybersecurity Learning Journey
+
+Today, I learned about three important cybersecurity concepts: **Zero Trust Architecture, Risk Management, and the Cyber Kill Chain.**
+
+These concepts help security professionals understand how to protect systems, assess security risks, and detect or disrupt cyberattacks.
+
+## 1. 🛡️ Core Concepts of Zero Trust
+
+**Zero Trust** is a security model based on the principle:
+
+> Never Trust, Always Verify.
+
+It assumes that no user or device should be automatically trusted, even if it is already inside the organization's network.
+
+### Key Principles
+
+* **Verify Explicitly:** Authenticate and authorize users and devices before granting access.
+* **Least Privilege Access:** Give users only the permissions they need.
+* **Continuous Monitoring:** Monitor access and activity to identify suspicious behavior.
+* **Assume Breach:** Prepare for potential compromise and limit its impact.
+* **Network Segmentation:** Separate critical resources to reduce unauthorized access and lateral movement.
+
+**Key takeaway:** Trust should never be granted automatically; access must be verified and controlled.
+
+## 2. ⚠️ Understanding Risk in Cybersecurity
+
+Cybersecurity risk refers to the potential for loss or damage when a threat exploits a vulnerability.
+
+### Important Terms
+
+| Term              | Definition                                                   |
+| ----------------- | ------------------------------------------------------------ |
+| **Threat**        | Something that could cause harm to a system or organization. |
+| **Vulnerability** | A weakness that could be exploited.                          |
+| **Risk**          | The potential for loss or damage from a security event.      |
+| **Impact**        | The consequences of a security incident.                     |
+| **Likelihood**    | The probability that an incident will occur.                 |
+
+### Example
+
+* **Threat:** An attacker attempts to compromise a web application.
+* **Vulnerability:** The application contains an exploitable security weakness.
+* **Risk:** The attacker could exploit the weakness and access sensitive information.
+* **Impact:** Data exposure, financial loss, or reputational damage.
+
+Organizations assess risks to prioritize security controls and allocate resources effectively.
+
+*Note: Risk assessment considers factors such as likelihood, impact, and the organization's specific assessment methodology.*
+
+## 3. 🎯 The Cyber Kill Chain
+
+The **Cyber Kill Chain** is a framework developed by Lockheed Martin to describe seven stages of a cyberattack.
+
+Understanding these stages helps defenders identify opportunities to detect, prevent, or disrupt attacks.
+
+### The Seven Stages
+
+| Stage | Name                         | Description                                          |
+| ----- | ---------------------------- | ---------------------------------------------------- |
+| 1     | **Reconnaissance**           | Gathering information about the target.              |
+| 2     | **Weaponization**            | Preparing an exploit or malicious payload.           |
+| 3     | **Delivery**                 | Sending the payload to the target.                   |
+| 4     | **Exploitation**             | Exploiting a vulnerability to execute an attack.     |
+| 5     | **Installation**             | Installing malware or establishing a foothold.       |
+| 6     | **Command and Control (C2)** | Establishing communication with compromised systems. |
+| 7     | **Actions on Objectives**    | Attempting to achieve the attacker's goal.           |
+
+### Defensive Perspective
+
+Security teams can disrupt an attack at multiple stages:
+
+* **Reconnaissance:** Monitor suspicious scanning and information-gathering activity.
+* **Delivery:** Use email security, filtering, and endpoint protection.
+* **Exploitation:** Patch vulnerabilities and apply secure configurations.
+* **Installation:** Use endpoint detection and response (EDR).
+* **Command and Control:** Monitor unusual outbound network connections.
+* **Actions on Objectives:** Detect suspicious access, data exfiltration, and unauthorized changes.
+
+**Key takeaway:** Early detection and effective defensive controls can prevent an attack from progressing to its final stages.
+
+---
+
+## 💡 Key Learnings
+
+Today's session helped me understand:
+
+* How Zero Trust improves access control and reduces implicit trust.
+* How threats, vulnerabilities, likelihood, and impact relate to cybersecurity risk.
+* How the Cyber Kill Chain helps defenders understand attack progression.
+* Why security monitoring and preventive controls are important at every stage.
+
+## 🚀 What's Next?
+
+I will continue strengthening my cybersecurity fundamentals and exploring how these concepts are applied in real-world security operations and SOC environments.
+
+**Learning step by step. Practicing consistently. Building a strong cybersecurity foundation.**
+
+---
+
+### 🏷️ Topics
+
+`Cybersecurity` `Zero Trust` `Risk Management` `Cyber Kill.
