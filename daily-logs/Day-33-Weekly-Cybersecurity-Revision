@@ -1,0 +1,98 @@
+# 🔐 Weekly Cybersecurity Revision
+
+This week, I focused on revising the cybersecurity concepts I learned to strengthen my fundamentals and improve my understanding of security operations, attack techniques, and defensive strategies.
+
+Rather than just learning new topics, I believe **revision and consistent practice are essential for long-term growth in cybersecurity.**
+
+## 📚 Topics Revised
+
+### 1. Zero Trust Security
+
+* Core principles of Zero Trust.
+* Never trust, always verify.
+* Least-privilege access.
+* Continuous monitoring and verification.
+
+### 2. Risk Management
+
+* Understanding cybersecurity risk.
+* Identifying and assessing risks.
+* Risk impact and mitigation.
+* The importance of risk management in security.
+
+### 3. Cyber Kill Chain
+
+* Understanding the stages of a cyberattack.
+* Reconnaissance.
+* Weaponization.
+* Delivery.
+* Exploitation.
+* Installation.
+* Command and Control (C2).
+* Actions on Objectives.
+
+### 4. SOC Fundamentals
+
+* SOC operations and processes.
+* Alert triage and analysis.
+* SOC operating models: in-house, outsourced, hybrid, and MSSP.
+* SOC roles and responsibilities: L1, L2, L3, and Incident Response.
+* The importance of monitoring and threat detection.
+
+### 5. Common Cyberattacks
+
+Revised the fundamentals of:
+
+* DoS and DDoS
+* Man-in-the-Middle (MITM)
+* SQL Injection
+* Cross-Site Scripting (XSS)
+* Cross-Site Request Forgery (CSRF)
+* DNS Poisoning
+* VLAN Hopping
+* Deauthentication Attacks
+* Replay Attacks
+
+### 6. Vulnerabilities and Security Concepts
+
+* Buffer Overflow
+* Memory Leaks
+* Pass-the-Hash
+* Directory Traversal
+* Understanding vulnerabilities and their security implications.
+
+### 7. Red Team, Blue Team, and Purple Team
+
+* **Red Team:** Simulates attacks to identify security weaknesses.
+* **Blue Team:** Detects, defends against, and responds to threats.
+* **Purple Team:** Improves collaboration between offensive and defensive security teams.
+
+## 💡 Key Takeaways
+
+* Strong fundamentals are essential for cybersecurity professionals.
+* Understanding attack techniques helps improve defensive strategies.
+* Risk assessment plays an important role in security decision-making.
+* Regular revision helps reinforce previously learned concepts.
+* Practical labs are necessary to connect theory with real-world scenarios.
+
+## 🎯 Next Steps
+
+* Continue revising cybersecurity fundamentals.
+* Practice SOC-related scenarios and alert investigation.
+* Strengthen networking, Linux, and security concepts.
+* Apply theoretical knowledge through hands-on labs.
+* Document my progress and maintain consistency.
+
+## 📈 My Learning Approach
+
+**Learn → Practice → Revise → Improve**
+
+I am continuing my journey toward becoming a cybersecurity professional by learning consistently, practicing hands-on, and documenting my progress.
+
+---
+
+### 🛠️ Areas of Focus
+
+`Cybersecurity` `SOC Analysis` `Zero Trust` `Risk Management` `Cyber Kill Chain` `Threat Detection` `Ethical Hacking` `Security Fundamentals`
+
+#Cybersecurity #InfoSec #SOCAnalyst #ContinuousLearning
