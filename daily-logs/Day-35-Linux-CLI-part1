@@ -1,0 +1,102 @@
+# 🐧 Day 35/100 — Linux CLI Practice
+
+## 🎯 Today's Focus
+
+Today, I focused on strengthening my Linux command-line skills by learning and practicing commands for reading, inspecting, and comparing files and directories.
+
+## 💻 Commands Learned
+
+### 1. Reading File Contents
+
+**`cat` — Display file contents**
+
+```bash
+cat file.txt
+```
+
+**`cat -n` — Display file contents with line numbers**
+
+```bash
+cat -n file.txt
+```
+
+### 2. Inspecting the Beginning of a File
+
+**`head -n 1` — Display the first line**
+
+```bash
+head -n 1 file.txt
+```
+
+**`head -c 1` — Display the first byte**
+
+```bash
+head -c 1 file.txt
+```
+
+### 3. Inspecting the End of a File
+
+**`tail -n 1` — Display the last line**
+
+```bash
+tail -n 1 file.txt
+```
+
+**`tail -c 1` — Display the last byte**
+
+```bash
+tail -c 1 file.txt
+```
+
+**`tail -c 2` — Display the last two bytes**
+
+```bash
+tail -c 2 file.txt
+```
+
+### 4. Comparing Files and Directories
+
+**`diff` — Compare two files**
+
+```bash
+diff file1.txt file2.txt
+```
+
+Shows the differences between two files.
+
+**`diff -r` — Recursively compare directories**
+
+```bash
+diff -r dir1 dir2
+```
+
+Compares files within two directories, including their subdirectories.
+
+## 🔑 Key Learnings
+
+* `cat` helps read file contents directly from the terminal.
+* `-n` specifies the number of lines to display with `head` or `tail`, or numbers output lines with `cat`.
+* `-c` specifies the number of bytes to display.
+* `head` examines the beginning of a file, while `tail` examines the end.
+* `diff` identifies differences between files.
+* `diff -r` compares directory contents recursively.
+
+## 🔐 Relevance to Cybersecurity
+
+These commands are useful for:
+
+* 📄 Inspecting system and application logs.
+* 🔍 Reviewing configuration files.
+* 🛡️ Identifying unexpected changes in files.
+* 🧪 Comparing files during security investigations.
+* 💻 Building Linux skills for penetration testing and security operations.
+
+## 📈 My Progress
+
+**Day 35/100 completed!**
+
+Continuing to build my cybersecurity foundation through consistent learning, hands-on practice, and documentation.
+
+One command at a time. One day at a time. 🚀
+
+#Linux #LinuxCLI #Cybersecurity #EthicalHacking #100DaysOfCybersecurity
