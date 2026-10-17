@@ -1,0 +1,65 @@
+# 📘 Day 36/100 — Learning Cybersecurity Through Research
+
+## 🔐 Topic: Machine Learning for Cyberattack Detection
+
+Today, I read a research paper titled **“A Random Forest-Based Approach for Cybersecurity Attack Detection,”** published in the *Journal of Next Computing* in December 2025.
+
+The paper explores how Machine Learning (ML) can help detect cyberattacks by identifying suspicious patterns in network data.
+
+### 📚 Key Concepts Learned
+
+**1. Machine Learning in Cybersecurity**
+
+* ML algorithms can analyze network traffic and identify patterns associated with potential cyberattacks.
+* ML can support automated threat detection.
+
+**2. Random Forest Algorithm**
+
+* Random Forest is an ensemble learning algorithm that combines multiple decision trees.
+* It can identify complex patterns in data.
+* The paper evaluates Random Forest for cybersecurity attack detection.
+
+**3. Types of Attacks Discussed**
+
+* Distributed Denial of Service (DDoS)
+* Malware
+* Exploit-related attacks
+
+**4. Model Evaluation Metrics**
+
+I learned about several metrics used to evaluate machine learning models:
+
+* **Precision:** Measures how many predicted attacks are actually attacks.
+* **Recall:** Measures how many actual attacks the model successfully detects.
+* **ROC-AUC:** Evaluates a classifier's ability to distinguish between classes across different thresholds.
+* **Sensitivity and Specificity:** Measure the identification of attacks and normal activity, respectively.
+* **Confusion Matrix:** Summarizes correct and incorrect classifications.
+
+### 📊 Important Research Observation
+
+The Random Forest model achieved perfect classification results on the synthetic dataset used in the study.
+
+However, the paper also highlights an important limitation: synthetic data cannot fully represent the complexity of real-world network traffic. Further validation using established cybersecurity datasets is needed.
+
+### 💡 My Biggest Learning
+
+Cybersecurity is not limited to security tools and attack techniques. Machine Learning and data analysis can also contribute to detecting threats and improving security monitoring.
+
+I want to continue exploring how these technologies can be applied to real-world cybersecurity challenges.
+
+### 🎯 Next Steps
+
+* Strengthen my understanding of Machine Learning fundamentals.
+* Explore how network intrusion detection systems work.
+* Learn more about classification algorithms and evaluation metrics.
+* Investigate practical applications of ML in cybersecurity.
+
+### 🚀 Learning Philosophy
+
+**One Day at a Time. One Concept at a Time. Continuous Improvement.**
+
+---
+
+### 🏷️ Tags
+
+`#Cybersecurity` `#MachineLearning` `#RandomForest` `#ThreatDetection` `#NetworkSecurity` `#Day23Of100` `#ContinuousLearning`
