@@ -1,0 +1,63 @@
+# 🔐 Day 37/100 — Revising & Strengthening Cybersecurity Fundamentals
+
+## 📌 Overview
+
+Today, I focused on revising the cybersecurity concepts and Linux commands I learned over the past few days. The goal was to strengthen my fundamentals, reinforce my understanding, and connect theoretical knowledge with practical applications.
+
+## 🐧 1. Linux Command Line Revision
+
+Revised the following Linux commands:
+
+| Command     | Purpose                                 |
+| ----------- | --------------------------------------- |
+| `cat`       | Display file contents                   |
+| `cat -n`    | Display file contents with line numbers |
+| `head`      | Display the beginning of a file         |
+| `head -n 1` | Display the first line of a file        |
+| `head -c 1` | Display the first byte of a file        |
+| `tail`      | Display the end of a file               |
+| `tail -n 1` | Display the last line of a file         |
+| `tail -c 1` | Display the last byte of a file         |
+| `tail -c 2` | Display the last two bytes of a file    |
+| `diff`      | Compare two files                       |
+| `diff -r`   | Compare directories recursively         |
+
+**Key Learning:** These commands are useful for file inspection, comparing data, troubleshooting, and analyzing files during Linux administration and cybersecurity investigations.
+
+## 🛡️ 2. Cybersecurity Fundamentals
+
+Revised the following concepts:
+
+* **Zero Trust Security Model:** Never trust by default; continuously verify access.
+* **Risk Assessment and Risk Management:** Identify threats, assess risks, and implement appropriate controls.
+* **Cyber Kill Chain:** Understand the stages of a cyberattack.
+* **SOC Operations:** Review SOC workflows and security analyst responsibilities.
+* **Attack Vectors, Threats, and Vulnerabilities:** Understand how attacks occur and how security weaknesses can be exploited.
+
+## 🧪 3. Practical Learning Focus
+
+* Strengthened my understanding of previously learned concepts.
+* Reviewed Linux commands and their practical applications.
+* Connected theoretical cybersecurity knowledge with real-world scenarios.
+* Identified areas that require further practice.
+
+## 💡 Key Takeaway
+
+> Learning something new every day is important, but revising what you have already learned helps build stronger fundamentals.
+
+Consistency, revision, and hands-on practice are essential for developing practical cybersecurity skills.
+
+## 🎯 Next Steps
+
+* Continue practicing Linux commands.
+* Apply cybersecurity concepts in authorized lab environments.
+* Strengthen my SOC and penetration-testing fundamentals.
+* Document my progress throughout the 100-day challenge.
+
+---
+
+**Progress:** Day 37/100 ✅
+
+**Focus Areas:** Linux | Cybersecurity Fundamentals | SOC | Ethical Hacking
+
+#Cybersecurity #Linux #SOCAnalyst #EthicalHacking #100DaysOfCybersecurity #InfoSec #ContinuousLearning
