@@ -1,0 +1,149 @@
+# 🔐 Day 38/100 — Introduction to Cryptography & Salting
+
+## 📚 Overview
+
+On Day 25 of my **100 Days of Cybersecurity Learning Challenge**, I studied the fundamentals of cryptography, its importance in information security, classical encryption techniques, modern encryption methods, and password salting.
+
+## 🎯 Topics Covered
+
+### 1. What Is Cryptography?
+
+Cryptography is the science of protecting information using mathematical techniques.
+
+**Core security objectives:**
+
+* **Confidentiality:** Ensures information is accessible only to authorized users.
+* **Integrity:** Ensures information remains accurate and unaltered.
+* **Authentication:** Verifies the identity of a user or system.
+
+**Applications:** Secure messaging, online payments, credit cards, SSH, and data protection.
+
+### 2. Importance of Cryptography
+
+* Protects sensitive information from unauthorized access.
+* Helps prevent unauthorized data modification.
+* Secures communication between users and servers.
+* Protects credentials during transmission.
+* Supports secure online transactions.
+
+**PCI DSS:** Payment Card Industry Data Security Standard, a set of security requirements for protecting payment card information.
+
+### 3. History of Cryptography
+
+* Ancient cryptography used simple methods to conceal messages.
+* Medieval cryptography introduced additional encryption techniques.
+* Cryptography played an important role during World War I and World War II.
+* Modern cryptography includes symmetric encryption, public-key cryptography, hashing, and secure cryptographic protocols.
+
+### 4. Basic Cryptography Terminology
+
+| Term       | Description                                   |
+| ---------- | --------------------------------------------- |
+| Plaintext  | Original readable message                     |
+| Ciphertext | Encrypted form of a message                   |
+| Encryption | Converts plaintext into ciphertext            |
+| Decryption | Converts ciphertext back into plaintext       |
+| Cipher     | Algorithm used for encryption and decryption  |
+| Key        | Information used by a cryptographic algorithm |
+
+**Basic process:**
+
+`Plaintext → Encryption + Key → Ciphertext → Decryption + Key → Plaintext`
+
+### 5. Caesar Cipher
+
+The Caesar cipher is a classical encryption technique that shifts each letter by a fixed number of positions in the alphabet.
+
+**Example: Shift = 3**
+
+| Plaintext | Ciphertext |
+| --------- | ---------- |
+| A         | D          |
+| B         | E          |
+| C         | F          |
+| X         | A          |
+| Y         | B          |
+| Z         | C          |
+
+**Encryption formula:**
+
+```text
+E(x) = (x + k) mod 26
+```
+
+**Decryption formula:**
+
+```text
+D(x) = (x - k) mod 26
+```
+
+**Weaknesses:**
+
+* Only 25 useful non-zero shift keys exist.
+* An attacker can test every possible shift.
+* Unsuitable for protecting sensitive information.
+
+### 6. Types of Cryptography
+
+#### 🔑 Symmetric Encryption
+
+Uses the same secret key for encryption and decryption.
+
+**Examples:**
+
+* **DES:** Uses a 56-bit effective key and is no longer considered secure.
+* **3DES:** Applies DES three times and has been deprecated.
+* **AES:** A widely used modern symmetric encryption standard supporting 128-bit, 192-bit, and 256-bit keys.
+
+#### 🔐 Asymmetric Encryption
+
+Uses two mathematically related keys:
+
+* **Public key:** Shared with others.
+* **Private key:** Kept secret by its owner.
+
+**Example:**
+
+1. Bob shares his public key with Alice.
+2. Alice encrypts her confidential message using Bob's public key.
+3. Alice sends the ciphertext to Bob.
+4. Bob decrypts it using his private key.
+
+For confidentiality, the recipient's public key is used for encryption, and the recipient's private key is used for decryption.
+
+### 7. Understanding Password Salting 🧂
+
+Salting is an important technique in password security.
+
+* A **salt** is a random value added to a password before password hashing.
+* Unique salts help ensure that identical passwords produce different hashes.
+* Salting makes precomputed attacks, such as rainbow-table attacks, more difficult.
+* Passwords should be stored using secure password-hashing algorithms such as **Argon2id, bcrypt, or scrypt**.
+
+**Basic process:**
+
+```text
+Password + Unique Salt
+          ↓
+   Password Hashing
+          ↓
+     Stored Hash
+```
+
+**Important distinction:** Hashing is a one-way operation, unlike encryption, which is designed to be reversible using the appropriate key.
+
+## 💡 Key Takeaways
+
+* Cryptography helps protect the confidentiality and integrity of information.
+* Symmetric and asymmetric encryption serve different purposes.
+* The Caesar cipher demonstrates basic encryption but is not secure for modern use.
+* Password salting improves protection against precomputed hash attacks.
+* Secure password storage requires appropriate password-hashing algorithms.
+
+## 🚀 Learning Progress
+
+Day 38/100 completed!
+
+Continuing to strengthen my cybersecurity fundamentals through consistent learning, practical exploration, and documentation.
+
+#Cybersecurity #Cryptography #Encryption #PasswordSecurity #EthicalHacking #InfoSec #100DaysOfCybersecurity
