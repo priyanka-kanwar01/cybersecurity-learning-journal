@@ -1,0 +1,58 @@
+# 🔐 Day 39/100 — Cryptography Fundamentals
+
+Today, I focused on understanding three important cryptography concepts: **Hashing, Key Exchange, and Public & Private Keys.**
+
+## 📚 What I Learned
+
+### 1. Hashing
+
+* Converts input data into a fixed-length hash value.
+* Helps verify data integrity.
+* Common hashing algorithms include SHA-256 and SHA-3.
+* Hashing is designed to be a one-way process.
+* Applications include file integrity verification and password storage.
+
+### 2. Key Exchange
+
+* Allows two parties to establish a shared secret over an insecure communication channel.
+* Helps secure communication without directly transmitting the shared secret.
+* **Example:** Diffie–Hellman key exchange.
+* Commonly used as part of secure communication protocols.
+
+### 3. Public & Private Keys
+
+Public-key cryptography uses a pair of mathematically related keys.
+
+* **Public Key:** Can be shared openly. Depending on the cryptographic scheme, it can be used for encryption or digital signature verification.
+* **Private Key:** Must remain secret. Depending on the scheme, it can be used for decryption or creating digital signatures.
+* Together, these keys support secure communication, authentication, and digital signatures.
+
+## 💡 Key Takeaways
+
+| Concept      | Purpose                              | Example        |
+| ------------ | ------------------------------------ | -------------- |
+| Hashing      | Verify data integrity                | SHA-256        |
+| Key Exchange | Establish a shared secret            | Diffie–Hellman |
+| Public Key   | Encryption or signature verification | RSA, ECC       |
+| Private Key  | Decryption or signature creation     | RSA, ECC       |
+
+## 🎯 Learning Outcome
+
+I developed a better understanding of how cryptographic techniques help protect information, establish secure communication, and maintain data integrity.
+
+**Learning → Practicing → Documenting → Improving**
+
+## 🛠️ Topics Covered
+
+* Cryptography Fundamentals
+* Hashing Algorithms
+* SHA-256 and SHA-3
+* Diffie–Hellman Key Exchange
+* Asymmetric Cryptography
+* Public and Private Keys
+* Digital Signatures
+* Data Integrity
+
+## 🔖 Tags
+
+`Cybersecurity` `Cryptography` `Hashing` `KeyExchange` `PublicKeyCryptography` `InformationSecurity` `100DaysOfLearning`
