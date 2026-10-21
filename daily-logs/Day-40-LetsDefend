@@ -1,0 +1,64 @@
+# 🔐 Cybersecurity Fundamentals — LetsDefend
+
+## 📌 Overview
+
+I have successfully completed the **Cybersecurity Fundamentals course on LetsDefend**, gaining foundational knowledge of Security Operations Centers (SOC), security monitoring tools, threat intelligence, and incident detection and response.
+
+This learning experience helped me understand how SOC teams monitor security events, investigate suspicious activities, and respond to potential cyber threats.
+
+## 📚 Topics Covered
+
+* **Introduction to SOC** — Understanding the purpose and functions of a Security Operations Center.
+* **SOC Types and Roles** — Learning about different SOC models and team structures.
+* **SOC Analyst and Their Responsibilities** — Understanding the duties of SOC analysts.
+* **SIEM and Analyst Relationship** — Learning how SIEM tools help analysts monitor and investigate security events.
+* **Log Management** — Understanding how security logs are collected and analyzed.
+* **EDR (Endpoint Detection and Response)** — Learning about endpoint monitoring and threat detection.
+* **SOAR (Security Orchestration, Automation, and Response)** — Understanding security workflow automation and incident response.
+* **Threat Intelligence Feed** — Learning how threat intelligence supports security investigations.
+* **Common Mistakes Made by SOC Analysts** — Understanding common analytical mistakes and the importance of accurate investigations.
+* **SOC Fundamentals Assessment** — Reviewing and assessing my understanding of SOC fundamentals.
+
+## 🛠️ Key Skills Developed
+
+* SOC fundamentals
+* Security monitoring concepts
+* SIEM fundamentals
+* Log analysis concepts
+* Endpoint detection and response
+* Security automation concepts
+* Threat intelligence fundamentals
+* Security incident investigation concepts
+
+## 🎯 Key Takeaways
+
+* A SOC helps organizations monitor, detect, investigate, and respond to security threats.
+* SIEM tools help analysts correlate and investigate security events.
+* Effective log management supports threat detection and incident investigations.
+* EDR tools provide visibility into endpoint activity.
+* SOAR helps automate repetitive security tasks and response workflows.
+* Threat intelligence helps analysts understand and investigate potentially malicious activity.
+
+## 🎓 Learning Platform
+
+**Platform:** [LetsDefend](https://letsdefend.io/)
+
+**Course:** [Introduction to SOC](https://app.letsdefend.io/training/lesson_detail/introduction-to-soc)
+
+## 🚀 What's Next?
+
+* Practice hands-on SOC investigations.
+* Improve SIEM and log analysis skills.
+* Learn alert triage and incident response workflows.
+* Continue developing Blue Team and SOC Analyst skills.
+* Document my progress throughout the #100DaysOfCybersecurity challenge.
+
+---
+
+**Status:** ✅ Completed
+
+**Learning Journey:** #100DaysOfCybersecurity
+
+**Focus Areas:** SOC | Blue Team | SIEM | EDR | SOAR | Threat Intelligence
+
+*Learning, practicing, documenting, and improving every day.* 🔐
