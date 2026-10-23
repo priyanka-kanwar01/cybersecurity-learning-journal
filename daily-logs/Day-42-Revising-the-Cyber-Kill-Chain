@@ -1,0 +1,65 @@
+# 🔐 Day 42/100 – Revising the Cyber Kill Chain
+
+## 📌 Overview
+
+Today, I revised the **Cyber Kill Chain Framework**, a cybersecurity model developed by Lockheed Martin that helps security professionals understand the different stages of a cyberattack.
+
+Understanding these stages helps identify potential threats, improve threat detection, and implement effective security controls.
+
+## 🎯 The 7 Stages of the Cyber Kill Chain
+
+### 1. Reconnaissance 🔍
+
+* Gathering information about the target.
+* Identifying potential vulnerabilities and exposed assets.
+
+### 2. Weaponization 🛠️
+
+* Preparing a malicious payload or exploit.
+* Combining an exploit with a delivery mechanism.
+
+### 3. Delivery 📩
+
+* Delivering the malicious payload to the target.
+* Common methods include phishing emails and malicious attachments.
+
+### 4. Exploitation 💥
+
+* Exploiting a vulnerability to gain access to the target system.
+* May involve software vulnerabilities or user interaction.
+
+### 5. Installation ⚙️
+
+* Installing malware or other malicious tools on the compromised system.
+* Establishing a foothold for further activities.
+
+### 6. Command and Control (C2) 🌐
+
+* Establishing communication between the compromised system and the attacker's infrastructure.
+* Enables remote control and the execution of commands.
+
+### 7. Actions on Objectives 🎯
+
+* Achieving the attacker's final goal.
+* Examples include data theft, disruption of services, and unauthorized access to sensitive information.
+
+## 💡 Key Takeaways
+
+* The Cyber Kill Chain helps break down cyberattacks into understandable stages.
+* Detecting suspicious activity early can help prevent an attack from progressing.
+* Security controls should be implemented at multiple stages.
+* Understanding attack techniques improves threat detection and incident response.
+
+## 📚 What I Practiced Today
+
+* Revised all seven stages of the Cyber Kill Chain.
+* Reviewed how attackers move from reconnaissance to achieving their objectives.
+* Strengthened my understanding of attack detection and prevention.
+
+## 🚀 Learning Goals
+
+I am continuing to build my cybersecurity fundamentals, improve my threat detection skills, and develop a stronger understanding of real-world attack techniques.
+
+**Learning • Practicing • Revising • Growing**
+
+#CyberSecurity #CyberKillChain #EthicalHacking #SOCAnalyst #ThreatDetection #InfoSec #100DaysOfCybersecurity
