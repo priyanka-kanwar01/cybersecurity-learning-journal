@@ -1,0 +1,48 @@
+# Day 44/100 – Cybersecurity Learning Journey 🚀
+
+## 📚 Today's Learning
+
+Today, I focused on revising networking and operating system fundamentals while building my own home lab for SOC Analyst practice.
+
+### 1. Networking Revision 🌐
+
+* Revised OSI and TCP/IP models.
+* Studied TCP Flags.
+* Revised IP addressing and subnetting.
+* Reviewed basic networking concepts and protocols.
+
+### 2. Operating Systems Revision 💻
+
+* Revised Linux fundamentals.
+* Reviewed Windows 10 fundamentals.
+* Practiced essential operating system commands.
+
+### 3. SOC Home Lab Setup 🔬
+
+Started building a practical cybersecurity lab using VMware Workstation.
+
+**Lab Environment:**
+
+* Kali Linux – Security testing and network analysis.
+* Windows 10 – Target machine for security monitoring and investigation.
+* VMware Workstation – Virtualization platform.
+
+**Objective:**
+
+* Understand network communication between virtual machines.
+* Practice network traffic analysis.
+* Learn security event monitoring.
+* Simulate security scenarios in a controlled environment.
+* Develop practical SOC Analyst skills.
+
+## 🎯 Today's Goal
+
+Build a strong foundation in networking, Linux, and Windows while developing a hands-on environment to practice SOC operations.
+
+## 📈 Key Takeaway
+
+Learning cybersecurity is not just about understanding concepts; it's about implementing them in practical environments.
+
+**Learn | Practice | Document | Improve**
+
+#100DaysOfCybersecurity #SOCAnalyst #HomeLab #KaliLinux #Windows10 #Networking #CyberSecurity
