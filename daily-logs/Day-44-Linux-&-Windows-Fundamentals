@@ -1,0 +1,53 @@
+# Day 44/100 – Linux & Windows Fundamentals for SOC Analysts
+
+Continuing my **100 Days of Cybersecurity Learning** journey by strengthening operating system fundamentals from a SOC Analyst perspective.
+
+## 📚 Topics Covered
+
+### 🐧 Linux Fundamentals
+
+* Absolute vs. Relative Paths
+* File and Directory Management
+* Linux Networking Commands
+* Process Monitoring and Management
+* System Services using `systemctl`
+* Important Linux Log Files
+
+### 🪟 Windows Fundamentals
+
+* Windows Operating System Architecture
+* User Mode vs. Kernel Mode
+* Windows Kernel and System Components
+* Windows Task Manager
+* Background and System Processes
+* Important Windows Directories
+* Windows System32 and User Directories
+
+## 🔐 SOC Analyst Perspective
+
+Understanding Linux and Windows is essential for:
+
+* Monitoring system activity
+* Investigating suspicious processes
+* Analyzing system logs
+* Understanding operating system behavior
+* Identifying potential security threats
+
+## 🎯 Key Takeaway
+
+Linux and Windows knowledge forms an important foundation for SOC operations, incident investigation, and threat detection.
+
+**Consistency is the key to growth!**
+
+## 📅 Learning Progress
+
+* **Challenge:** 100 Days of Cybersecurity Learning
+* **Day:** 43/100
+* **Focus:** Linux, Windows, SOC Fundamentals
+* **Status:** Learning and Practicing
+
+---
+
+*Continuing to learn, practice, and document my cybersecurity journey every day.*
+
+#Cybersecurity #SOCAnalyst #Linux #Windows #BlueTeam #100DaysOfCybersecurity
