@@ -1,0 +1,66 @@
+# 🚀 Day 45/100 – 100 Days of Cybersecurity Learning
+
+## 📚 Today's Topic: Splunk – SIEM & SOC Operations
+
+Today, I explored **Splunk**, a powerful platform used by SOC teams for centralized log management, monitoring, and security analysis.
+
+### 🔍 Key Learnings
+
+- Understanding Splunk and its role in cybersecurity.
+- Centralized log collection and analysis.
+- How SIEM tools help SOC analysts monitor security events.
+- Using dashboards to visualize logs and security activities.
+- Understanding correlation rules and alert generation.
+- Identifying suspicious activities through log analysis.
+
+### 🛡️ Splunk in SOC Operations
+
+Splunk helps SOC analysts:
+
+- Monitor security events from different systems.
+- Investigate suspicious activities.
+- Detect potential security threats.
+- Analyze logs during incident investigations.
+- Support security monitoring and threat detection.
+
+### 🚨 Practical SOC L1 Scenario
+
+**Scenario:** Multiple failed login attempts from the same IP address.
+
+A SOC Analyst L1 can:
+
+1. Review authentication logs.
+2. Identify repeated failed login attempts.
+3. Check the source IP address and timestamps.
+4. Investigate whether the activity is suspicious.
+5. Correlate related events.
+6. Escalate the alert according to the incident response process.
+
+This activity may indicate a possible **brute-force attack** and requires further investigation.
+
+### 🎯 Today's Learning Objective
+
+Understand how Splunk supports log analysis, security monitoring, and alert investigation in a SOC environment.
+
+### 💡 Key Takeaway
+
+Splunk helps transform raw log data into meaningful security insights, enabling SOC analysts to detect, investigate, and respond to potential threats.
+
+---
+
+## 📈 Learning Progress
+
+- **Day:** 45/100
+- **Focus:** SOC Analyst L1
+- **Topic:** Splunk & SIEM
+- **Learning Type:** Conceptual learning and security monitoring
+
+---
+
+### 🔗 Learning Resources
+- [Splunk Official Website](https://www.splunk.com/)
+- [Splunk Documentation](https://docs.splunk.com/)
+
+---
+
+#Cybersecurity #100DaysOfCybersecurity #Splunk #SIEM #SOC #SOCAnalyst #CyberSecurityLearning #BlueTeam #LogAnalysis #InformationSecurity
