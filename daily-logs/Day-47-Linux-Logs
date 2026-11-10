@@ -1,0 +1,153 @@
+# 🚀 Day 47/100 – Linux Logs Analysis | 100 Days of Cybersecurity Learning
+
+## 📚 Today's Learning
+
+Today, I explored **Linux Log Analysis** and learned how Linux logs help SOC analysts with security monitoring, threat detection, troubleshooting, and incident investigation.
+
+Linux is widely used in web servers, application servers, and database environments. Therefore, understanding Linux logs is an essential skill for a SOC Analyst.
+
+---
+
+## 🔍 1. Understanding Linux Logs
+
+Linux logs act as digital footprints that record system activities, user authentication, running services, and security-related events.
+
+**Why are Linux logs important?**
+
+- Security monitoring
+- Detecting unauthorized access
+- Identifying SSH brute-force attacks
+- Investigating privilege escalation
+- Monitoring suspicious user activities
+- Incident response and troubleshooting
+
+## 📂 2. Important Linux Log Locations
+
+Most Linux log files are stored inside:
+
+```bash
+/var/log/
+```
+
+| Log File | Purpose |
+|---|---|
+| `/var/log/auth.log` | Authentication and SSH activities (Debian/Ubuntu) |
+| `/var/log/secure` | Authentication logs (RHEL-based systems) |
+| `/var/log/syslog` | General system-wide events |
+| `/var/log/messages` | System messages |
+| `/var/log/kern.log` | Kernel-related events |
+| `/var/log/faillog` | Failed login information |
+| `/var/log/wtmp` | Login, logout, and reboot records |
+| `/var/log/btmp` | Failed login records |
+| `/var/log/boot.log` | System boot activities |
+
+**Note:** Log locations and filenames depend on the Linux distribution and logging configuration.
+
+## 💻 3. Important Linux Commands Practiced
+
+### View the last 50 log entries
+
+```bash
+tail -n 50 /var/log/auth.log
+```
+
+### Search for failed SSH login attempts
+
+```bash
+grep "Failed password" /var/log/auth.log
+```
+
+### Identify successful SSH logins
+
+```bash
+grep "Accepted" /var/log/auth.log
+```
+
+### Check failed login attempts
+
+```bash
+sudo faillog -a
+```
+
+### View login history
+
+```bash
+last
+```
+
+### View failed login history
+
+```bash
+sudo lastb
+```
+
+### View the last login of each user
+
+```bash
+lastlog
+```
+
+### Check sudo activities
+
+```bash
+grep "sudo" /var/log/auth.log
+```
+
+### Check scheduled Cron jobs
+
+```bash
+crontab -l
+```
+
+## 🛡️ 4. SOC Analyst Perspective
+
+Linux log analysis helps SOC analysts investigate different security incidents.
+
+| Security Activity | Investigation Purpose |
+|---|---|
+| SSH Brute-Force | Identify repeated failed login attempts |
+| Unauthorized Login | Detect suspicious authentication |
+| Sudo Activity | Monitor privileged command execution |
+| Privilege Escalation | Investigate unauthorized privilege changes |
+| Cron Jobs | Identify suspicious scheduled tasks |
+| Boot Activities | Investigate suspicious services during startup |
+
+## 🎯 5. Practical Hands-on Tasks
+
+The following activities are useful for practicing Linux log investigation in a virtual machine:
+
+- [ ] Log in to a Linux virtual machine.
+- [ ] Generate a failed login attempt.
+- [ ] Investigate failed login records.
+- [ ] Review successful login history.
+- [ ] Check sudo command activities.
+- [ ] Examine scheduled Cron jobs.
+- [ ] Identify unusual login or system activities.
+
+**Lab Environment:** Kali Linux / Linux Virtual Machine
+
+## 💡 6. Key Takeaways
+
+- Linux logs are essential for security monitoring and incident investigation.
+- The `/var/log/` directory contains important system and security logs.
+- Commands like `grep`, `tail`, `last`, and `lastb` help investigate system activities.
+- Monitoring authentication logs helps identify suspicious login attempts.
+- Understanding Linux logs is an important foundation for SOC Analyst L1 roles.
+
+---
+
+## 📈 Learning Progress
+
+**Day 47/100 – Completed**
+
+Continuing to strengthen my practical cybersecurity skills, focusing on SOC operations, Linux, log analysis, threat detection, and incident response.
+
+### 🔗 Topics & Skills
+
+`Linux` `Linux Logs` `Log Analysis` `SOC Analyst L1` `SSH Monitoring` `Authentication Logs` `Privilege Escalation` `Cron Jobs` `Threat Detection` `Incident Response` `Blue Team`
+
+---
+
+⭐ **My Goal:** Learn every day, practice in a virtual lab, and build practical cybersecurity skills.
+
+#100DaysOfCybersecurity #Day47 #SOCAnalyst #LinuxLogs #CyberSecurity #BlueTeam
