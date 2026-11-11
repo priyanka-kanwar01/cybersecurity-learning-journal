@@ -1,0 +1,55 @@
+🚀 **Day 48/100 | 100 Days of Cybersecurity Learning**
+
+📚 **Today's Learning: SIEM Fundamentals, SIEM Tools & SOC Analyst L1 Concepts**
+
+Today, I focused on understanding SIEM (Security Information and Event Management), one of the most important technologies used by SOC analysts for security monitoring, threat detection, and incident investigation.
+
+🔍 **Key Learnings:**
+
+✅ **Understanding SIEM**
+- What is SIEM and why organizations use it.
+- Centralized log collection and monitoring.
+- SIEM architecture and workflow.
+- Difference between SIEM and Log Management.
+
+✅ **Core SIEM Functionalities**
+- Data Collection
+- Log Normalization
+- Event Correlation
+- Real-time Alerting
+- Reporting
+- Forensic Investigation
+
+✅ **Exploring Popular SIEM Tools**
+
+Open-source:
+- Wazuh
+- ELK Stack
+- Graylog
+
+Commercial / Enterprise:
+- Splunk
+- IBM QRadar
+- Microsoft Sentinel
+- ArcSight
+
+✅ **SOC Analyst L1 Revision**
+- Difference between SIEM and Syslog.
+- Importance of Windows Event IDs.
+- Investigating suspicious IP addresses and domains.
+- Using VirusTotal, AbuseIPDB and Hybrid Analysis.
+- Linux commands for log investigation.
+- Understanding SIEM detection rules and use cases.
+
+🎯 **Important Takeaway:**
+
+A SIEM platform helps SOC analysts collect, correlate, and analyze security events from multiple sources through a centralized dashboard.
+
+Understanding SIEM tools and gaining practical hands-on experience are essential steps toward becoming a SOC Analyst.
+
+💻 **My Practical Learning Goal:**
+Building hands-on experience with Wazuh and exploring Splunk to understand real-world security monitoring and alert investigation.
+
+Consistency, practical learning, and continuous improvement! 🔐
+
+#100DaysOfCybersecurity #Day48 #SOCAnalyst #SIEM #Wazuh #Splunk #CyberSecurity #BlueTeam #ThreatDetection #LogAnalysis #IncidentResponse #LearningInPublic
