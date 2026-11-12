@@ -1,0 +1,72 @@
+# 🚀 Day 49/100 | 100 Days of Cybersecurity Learning
+
+## 📚 Topic: Wazuh SIEM – Server Deployment & Configuration
+
+Today, I worked on deploying and configuring a **Wazuh SIEM server from scratch** as part of my hands-on SOC Analyst home lab.
+
+The setup involved VMware Workstation and Kali Linux. I also explored Wazuh archives to understand how additional event telemetry supports security monitoring and investigation.
+
+## 🔍 Key Learnings
+
+### 1. Virtual Machine Setup
+- Installed and configured VMware Workstation.
+- Created a Kali Linux virtual machine.
+- Configured CPU, RAM, storage, and network settings.
+
+### 2. Wazuh Server Installation
+- Installed Wazuh using the Quickstart installation method.
+- Accessed the Wazuh dashboard through a web browser.
+- Explored Wazuh credentials and basic server configuration.
+
+### 3. SSH Configuration
+- Configured OpenSSH for remote access.
+- Connected remotely to the Kali Linux machine.
+
+### 4. Enabling Wazuh Archives
+- Enabled `logall` and `logall_json` in `ossec.conf`.
+- Enabled archives in `filebeat.yml`.
+- Restarted Wazuh Manager and Filebeat services.
+- Created the `wazuh-archives-4.x` index pattern.
+
+### 5. Log Monitoring & Analysis
+- Explored the Wazuh Discover dashboard.
+- Understood the difference between security alerts and archived events.
+- Learned how archives capture events that may not generate security alerts.
+
+### 6. Snapshot Management
+- Created a VMware snapshot to preserve the configured server environment.
+
+## 🛠️ Technologies & Tools Used
+
+- **SIEM:** Wazuh
+- **Virtualization:** VMware Workstation
+- **Operating System:** Kali Linux
+- **Remote Access:** OpenSSH, PowerShell
+- **Configuration Files:** `ossec.conf`, `filebeat.yml`
+- **Log Analysis:** Wazuh Discover Dashboard
+
+## 💡 Key Takeaway
+
+Enabling Wazuh archives provides additional visibility into system activities beyond security alerts.
+
+For a SOC Analyst, access to archived event telemetry can support deeper investigations and help identify suspicious activities that might otherwise go unnoticed.
+
+## 🎯 Next Steps
+
+- Set up Windows 10 and Ubuntu endpoints.
+- Install and connect Wazuh agents.
+- Monitor endpoint activities.
+- Analyze security events through the Wazuh dashboard.
+- Practice identifying suspicious activities.
+
+## 📈 Learning Progress
+
+**Day 49/100 completed!**
+
+Every day, one step closer to becoming a SOC Analyst. 🔐
+
+---
+
+### 🏷️ Tags
+
+`#100DaysOfCybersecurity` `#Day49` `#Wazuh` `#SIEM` `#SOCAnalyst` `#KaliLinux` `#HomeLab` `#LogAnalysis` `#ThreatDetection` `#BlueTeam`
