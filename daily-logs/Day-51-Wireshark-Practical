@@ -1,0 +1,84 @@
+# 🚀 Day 51/100 | 100 Days of Cybersecurity Learning
+
+## 📚 Today's Learning: SOC Operations, Networking Fundamentals & Wireshark Practical
+
+Today, I focused on strengthening my fundamentals for a **SOC Analyst L1 role**, covering essential SOC operations, networking concepts, and practical network traffic analysis using Wireshark.
+
+## 🔍 Key Learnings
+
+### ✅ 1. SOC Fundamentals
+- Understanding the Security Operations Center (SOC).
+- Differences between SOC L1, L2, and L3 analysts.
+- SOC workflow and alert monitoring.
+- Alert triage, incident response, and escalation procedures.
+- Understanding SLA and severity levels.
+
+### ✅ 2. Networking Fundamentals
+- TCP vs UDP.
+- OSI Model.
+- DNS, DHCP, HTTP, and HTTPS.
+- Firewall, VPN, and Proxy.
+- IDS vs IPS.
+
+### ✅ 3. Important Network Ports
+
+| Service | Port |
+|---|---:|
+| FTP | 20/21 |
+| SSH | 22 |
+| Telnet | 23 |
+| SMTP | 25 |
+| DNS | 53 |
+| HTTP | 80 |
+| HTTPS | 443 |
+| SMB | 445 |
+| RDP | 3389 |
+
+### 🛠️ 4. Hands-on Practical: Wireshark
+
+Practiced network traffic analysis using Wireshark:
+
+- Capturing live network traffic.
+- Identifying source and destination IP addresses.
+- Differentiating TCP and UDP traffic.
+- Analyzing DNS requests.
+- Identifying HTTP requests.
+- Applying Wireshark display filters.
+
+**Wireshark Filters Practiced:**
+
+```text
+tcp
+dns
+http
+ip.addr == <IP>
+```
+
+### 🎯 5. Interview Preparation
+
+Revised important SOC Analyst L1 interview questions:
+
+1. What happens when you enter a URL in a browser?
+2. What is the difference between IDS and IPS?
+3. What is a TCP three-way handshake?
+4. What is DNS tunneling?
+5. What is the difference between TCP and UDP?
+
+## 💡 Key Takeaway
+
+Understanding networking fundamentals is essential for SOC analysts because analyzing network traffic, identifying suspicious connections, and investigating potential threats are important parts of daily SOC operations.
+
+Consistency, practical learning, and strong fundamentals are the keys to becoming a better cybersecurity professional. 🔐
+
+---
+
+### 🧰 Tools & Technologies
+- Wireshark
+- Networking Protocols
+- SOC Operations
+- Network Traffic Analysis
+
+### 📌 Learning Progress
+**Day 51/100 – Completed ✅**
+
+#100DaysOfCybersecurity #SOCAnalyst #SOCAnalystL1 #CyberSecurity #Networking #Wireshark #NetworkSecurity #IncidentResponse #ThreatDetection #BlueTeam #LearningInPublic
